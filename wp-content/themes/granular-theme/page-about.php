@@ -25,7 +25,7 @@ get_header(); ?>
 				<div class="col-sm-12">
 					<section class="main-txt">
 						<h1><?php the_field('main_header'); ?></h1>
-						<h3 class="color-tan" style="text-align: center; margin-top: 30px;">Serving Tallahassee since 1977</h3>
+						<!-- <h3 class="color-tan" style="text-align: center; margin-top: 30px;">Serving Tallahassee since 1977</h3> -->
 					</section>
 				</div>
 				<div class="col-sm-12">
@@ -74,7 +74,11 @@ get_header(); ?>
 				<div class="front-desk">
 					<div class="row">
 						<?php $count == 0; if(have_rows('second_tier_employee')) : while(have_rows('second_tier_employee')) : the_row('second_tier_employee'); ?>
-							<div class="col-xs-6 col-sm-3 col-md-3">
+							<?php if($count % 2 == 0 ) { ?>
+								<div class="col-xs-5 col-xs-offset-1 col-sm-3 col-md-3">
+							<?php } else { ?>
+								<div class="col-xs-5 col-sm-3 col-md-3">
+							<?php } ?>
 								<div class="front-desk-indiv" style="background-image:url('<?php return_imgix(get_sub_field('image'), 400, 300, 100); ?>');">
 								</div>
 								<h4><?php the_sub_field('full_name'); ?></h4>

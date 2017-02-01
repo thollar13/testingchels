@@ -50,7 +50,7 @@
 		}
 	}
 	@media(max-width: 767px) {
-		margin-top: 75px;
+		margin-top: 35px;
 		&__image {
 				height: 200px;
 				width: 50%;
@@ -59,6 +59,12 @@
 }
 .active {
 	-webkit-filter: grayscale(0%);
+}
+html {
+	margin-top: 0;
+	@media screen and (max-width: 782px) {
+	  margin-top: 0 !important;
+	}
 }
 body {
 		background-size: cover;
@@ -271,6 +277,10 @@ footer {
 								}
 						}
 				}
+				@media(max-width: 767px) {
+					width: 90%;
+					margin: 0 auto;
+				}
 		}
 		address {
 				text-align: center;
@@ -337,6 +347,10 @@ section {
 		&:first-child {
 				// padding-top: 125px;
 		}
+}
+.product-wrap {
+	max-width: 95%;
+	margin: 0 auto;
 }
 .button-transparent {
 		border: 2px solid $gold;
@@ -428,7 +442,7 @@ section {
 				}
 				@media only screen and(max-width: 767px) {
 						height: 200px;
-						margin-top: 60px;
+						margin-top: 35px;
 						h1 {
 								font-size: 2em;
 						}
@@ -439,14 +453,11 @@ section {
 				// text-align: center;
 		}
 		.about-section {
+				padding: 1em;
 				padding-top: 75px;
 				position: relative;
 				background: #222;
 				color: white;
-				p {
-						letter-spacing: 0.04em;
-						line-height: 25px;
-				}
 				i {
 						margin-top: 0px;
 						color: $gold;
@@ -465,16 +476,11 @@ section {
 				}
 		}
 		.main-txt {
-				// padding-top:100px;
 				padding-bottom: 30px;
-				// background: #f0f0f0;
-				// text-align: center;
-				line-height: 2em;
-				font-size: 1.25em;
 				h1 {
-						color: $gold;
-						font-size: 3em;
-						text-align: center;
+					color: $gold;
+					font-size: 3em;
+					text-align: center;
 				}
 				@media only screen and(max-width: 800px) {
 						h1 {
@@ -485,8 +491,7 @@ section {
 		.about-owners {
 				display: inline-block;
 				width: 100%;
-				// float: left;
-				// background: rgba(0,0,0,0.8);
+				padding: 1em;
 				background: $black;
 				color: white;
 				padding-top: 90px;
@@ -524,6 +529,9 @@ section {
 				@media only screen and(max-width: 800px) {
 						h1 {
 								margin-top: 15px;
+								span {
+									display: block;
+								}
 						}
 				}
 		}
@@ -676,7 +684,7 @@ section {
 				}
 				@media only screen and(max-width: 767px) {
 						height: 200px;
-						margin-top: 60px;
+						margin-top: 35px;
 						h1 {
 								font-size: 2em;
 						}
@@ -892,7 +900,7 @@ section {
 				}
 				@media only screen and(max-width: 767px) {
 						height: 200px;
-						margin-top: 60px;
+						margin-top: 35px;
 						h1 {
 								font-size: 2em;
 						}
@@ -1019,7 +1027,7 @@ section {
 				}
 				@media only screen and(max-width: 767px) {
 						height: 200px;
-						margin-top: 60px;
+						margin-top: 35px;
 						h1 {
 								font-size: 3em !important;
 						}
@@ -2224,5 +2232,12 @@ $mobile: 767px;
     text-align: center;
     line-height: 40px;
     color: $gold;
+	}
+	@media(max-width: 767px) {
+		text-align: left;
+    margin-bottom: 4em;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 4em;
 	}
 }
