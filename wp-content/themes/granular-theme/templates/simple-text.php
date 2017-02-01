@@ -1,0 +1,1 @@
+<p class="simple-text"><?php echo get_sub_field('simple_text_content'); ?></p>

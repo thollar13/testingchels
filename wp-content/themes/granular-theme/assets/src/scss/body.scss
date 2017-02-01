@@ -1,0 +1,18 @@
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html { 
+  font-size: 62.5%; 
+  margin-top: 0 !important;
+} 
+body {
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  font-weight: 400;
+  font-family: $body-font;
+  color: $black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FFF;
+  // font-family: 'Lora-Regular';
+}
+a { text-decoration: none; }
