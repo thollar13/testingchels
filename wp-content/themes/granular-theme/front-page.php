@@ -53,7 +53,7 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-sm-12">
 					<h2 style="font-family: 'Playfair Display'; font-style: italic; margin-bottom: 1em;background: white; display: inline-block; padding: 0 20px 0 0;">Tallahassee's Largest AVEDA Lifestyle Spa &amp; Salon</h2>
-					<hr style="border-top: 5px solid #b4cd95; margin-top: -45px; margin-bottom: 50px;">
+					<hr style="border-top: 5px solid #b4cd95; margin-top: -40px; margin-bottom: 50px;">
 				</div>
 			</div>
 			<div class="row">
