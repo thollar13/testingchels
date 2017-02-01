@@ -6,8 +6,10 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
-          <?php echo do_shortcode('[instagram-feed]'); ?>
+				<div class="col-sm-4 social">
+          <a href="https://www.facebook.com/chelseasalonandspa/?rf=307020166043364" target="_blank"><i class="fa fa-instagram"></i>Facebook</a>
+          <a href="https://www.instagram.com/chelseasalonandspa/" target="_blank"><i class="fa fa-facebook"></i>Instagram</a>
+          <a href="tel:8508788282"><i class="fa fa-phone"></i>850-878-8282</a>
 				</div>
 				<div class="col-sm-4">
 					<address class="full">

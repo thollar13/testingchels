@@ -1231,7 +1231,7 @@ section {
 		}
 		#spa-care {
 				h1 {
-						font-size: 3em !important;
+						font-size: 2em !important;
 						padding-top: 25px !important;
 				}
 		}
@@ -2118,7 +2118,7 @@ $mobile: 767px;
 			max-width: 900px;
 		}
 		@media(max-width: 767px) {
-			width: 98.5%;
+			width: 95%;
 		}
 	}
 	h1 { 
@@ -2157,6 +2157,9 @@ $mobile: 767px;
 		h3 { color: $gold; }
 		.special { background-color: #333;}
 		.service-wrap { border: 1px solid #333; }
+	}
+	@media(max-width: 767px) {
+		hr { top: 13px; }
 	}
 }
 
@@ -2204,5 +2207,21 @@ $mobile: 767px;
 	}
 	@media(max-width: 767px) {
 		width: 98.5%;
+	}
+}
+
+.social {
+	a {
+		margin-bottom: 10px;
+		font-size: 1.25em;
+	}
+	i {
+		margin-right: 1em;
+    background: #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
 	}
 }
