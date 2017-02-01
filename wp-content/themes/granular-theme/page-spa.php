@@ -15,14 +15,7 @@ get_header(); ?>
 				<div class="display-table">
 					<div class="display-cell">
 						<div class="display-content">
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-8 col-sm-offset-2">
-										<h1 class="spa-title">Spa Services</h1>
-										<!-- <a href="/shop" class="btn btn-white mt2 m0-auto inline-block">Spa Packages</a> -->
-									</div>
-								</div>
-							</div>
+							<h1 class="spa-title">Spa Services</h1>
 						</div>
 					</div>
 				</div>
