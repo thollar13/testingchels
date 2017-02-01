@@ -24,7 +24,7 @@
 					<div class="logo">
 						<a href="/home">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-chelsea.png" />
-							<a class="phone" href="">850-878-8282</a>
+							<a class="phone" href="tel:850-878-8282">850-878-8282</a>
 						</a>
 					</div>
 					<div class="mobile-nav">
