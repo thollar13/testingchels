@@ -2106,7 +2106,7 @@ $mobile: 767px;
   width: 100%;
   padding: 2em 0 1em;
   text-align: center;
-  font-style: italic;
+  // font-style: italic;
 }
 .sectional {
 	padding: 5em 0;
@@ -2144,6 +2144,7 @@ $mobile: 767px;
 		hr { background: $black;}
 		.special { background-color: rgb(240, 240, 240); }
 		.service-wrap { border: 1px solid #f0f0f0; }
+		h5 { color: #333; }
 	}
 	&:nth-child(2n-1) {
 		background-color: $black;

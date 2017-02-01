@@ -81,7 +81,7 @@ get_header(); ?>
         			</div>
         			<div class="col-sm-6 col-sm-offset-1">
         				<h3 class="color-tan bg-black"><?php the_title(); ?></h3>
-        				<hr style="border-top: 5px solid #c4daa7; margin-top: -33px; margin-bottom: 30px; ">
+        				<hr style="border-top: 5px solid #c4daa7; margin-top: -43px; margin-bottom: 30px; ">
         				<p><?php the_field('description'); ?></p>
         				<!-- <a class="btn btn-white" href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Spa Packages">Purchase Now</a> -->
         			</div>
@@ -100,7 +100,7 @@ get_header(); ?>
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2">
 						<h3 class="mb2" style="font-family: 'Playfair Display'; font-style: italic; background: white; display: inline-block; padding: 0 20px;">A Gift Certificate Is The Perfect Gift!</h3>
-						<hr style="border-top: 5px solid #b4cd95; margin-top: -60px; margin-bottom: 50px;">
+						<hr style="border-top: 5px solid #b4cd95; margin-top: -70px; margin-bottom: 50px;">
 						<p class="mb2">Purchasing a Chelsea Salon Gift Card or Spa Package is an easy and convenient way to indulge that special someone in your life.</p>
 						<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black mt2 m0-auto block bg-black color-white">Purchase Now</a>
 					</div>

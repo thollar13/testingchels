@@ -1,1 +1,1 @@
-<p class="simple-text"><?php echo get_sub_field('simple_text_content'); ?></p>
+<h3 class="simple-text"><?php echo get_sub_field('simple_text_content'); ?></h3>
