@@ -1927,6 +1927,9 @@ $mobile: 767px;
 		}
 		@media only screen and (max-width: $mobile) {
 				height: 500px;
+				.flex__item {
+					height: 500px;
+				}
 		}
 }
 .home__fade {
@@ -2077,6 +2080,9 @@ $mobile: 767px;
 	margin-bottom: 165px;
 	li button::before {
 		font-size: 10px;
+	}
+	@media only screen and (max-width: $mobile) {
+		margin-bottom: 100px;
 	}
 }
 .slick-dotted.slick-slider {
