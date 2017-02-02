@@ -94,7 +94,8 @@
       speed: 500,
       fade: true,
   		cssEase: 'linear',
-  		arrows: false,
+  		arrows: true,
+      dots: true,
   		autoplay: true,
   		autoplaySpeed: 10000
      });

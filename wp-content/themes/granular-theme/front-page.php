@@ -12,48 +12,42 @@ get_header(); ?>
 				
 				<?php
 					if (get_sub_field('font_size') == 'large') {
-						$fontSize = '1.5em';
+						$fontSize = '1.25em';
 					} else {
 						$fontSize = '1em';
 					}
 				?>
 
-
 				<div class="slide__item" style="background-image: url('<?php the_sub_field('background_image'); ?>'); background-position: center;">
 					<div class="overlay"></div>
-					<div class="abs-full">
-						<div class="display-table">
-							<div class="display-cell">
-								<div class="display-content">
-									<div class="container home__fade">
-										<div class="row" style="font-size: <?php echo $fontSize; ?>;">
-											<div class="col-sm-12">
-												<h1><?php the_sub_field('headline'); ?></h1>
-												<p><?php the_sub_field('content'); ?></p>
-											</div>
-										</div>
-									</div>
-								</div>
+					<div class="home__fade">
+						<div class="row" style="font-size: <?php echo $fontSize; ?>;">
+							<div class="col-sm-12">
+								<h1><?php the_sub_field('headline'); ?></h1>
+								<p><?php the_sub_field('content'); ?></p>
+								<?php if(get_sub_field('include_link') == 'yes') { ?>
+									<a href="<?php the_sub_field('link_url'); ?>" class="btn btn-black"><?php the_sub_field('link_text'); ?></a>
+								<?php } ?>
 							</div>
 						</div>
-					</div>
+					</div>	
 				</div>
+
 				<?php endwhile; endif; ?>
 			</div>
 		</div>
 		<div class="booking-portal color-white bg-black home__slide-up">
 			<p>go to our booking portal to book your appointment</p>
-			<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn m0-auto m1 inline-block bg-tan">Book Now</a> -->
-
+			<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn m0-auto m1 inline-block bg-tan">Book Now</a>
 		</div>
 	</section>
 
-	<div style="margin: 5em 0em 7em;">
+	<div class="banner">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2 style="font-family: 'Playfair Display'; font-style: italic; margin-bottom: 1em;background: white; display: inline-block; padding: 0 20px 0 0;">Tallahassee's Largest AVEDA Lifestyle Spa &amp; Salon</h2>
-					<hr style="border-top: 5px solid #b4cd95; margin-top: -40px; margin-bottom: 50px;">
+					<h2>Tallahassee's Largest AVEDA Lifestyle Spa &amp; Salon</h2>
+					<hr />
 				</div>
 			</div>
 			<div class="row">
@@ -61,7 +55,7 @@ get_header(); ?>
 					<p>Chelsea has been serving Tallahassee since 1979. Our team of more than 30 professionals include hair talent, nail specialists, makeup artists, estheticians, massage therapists and of course our customer service team. Education is at the heart of everything we do at Chelsea. We offer our team in house education as well as AVEDA advanced seminars. This focus has kept Chelsea on the cutting edge of wearable fashions for hair and health oriented spa treatments.</p>
 				</div>
 				<div class="col-sm-4">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/aveda.jpg" alt="" style="margin: 0 auto; display: block;">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/aveda.jpg" alt="">
 				</div>
 			</div>
 		</div>	
@@ -94,7 +88,7 @@ get_header(); ?>
 		
 	</div>
 
-	<div class="flex vp5 center color-black">
+	<div class="flex vp5 center color-black gift-card--callout">
 		<div class="flex__item">
 			<div class="container">
 				<div class="row">

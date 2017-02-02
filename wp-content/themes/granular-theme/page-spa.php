@@ -80,7 +80,7 @@ get_header(); ?>
 				<div class="sectional__wrap">
 					<h1><?php the_title(); ?></h1>
 					<hr>
-					<div class="flex">
+					<div class="flex space-between">
 						<?php 
 							if(have_rows('flex_fields')) : while (have_rows('flex_fields')) : the_row(); 
 								if( get_row_layout() == 'service_card' ) { 
