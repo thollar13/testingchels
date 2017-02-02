@@ -2090,6 +2090,8 @@ $mobile: 767px;
 }
 .slick-next{
 		right: 50px;
+		height: 50px;
+		width: 50px;
 		&:before {
 				font-family: 'FontAwesome';
 				font-size: 40px;
@@ -2102,6 +2104,8 @@ $mobile: 767px;
 }
 .slick-prev {
 		left: 50px;
+		height: 50px;
+		width: 50px;
 		z-index: 1;
 		&:before {
 				font-family: 'FontAwesome';
