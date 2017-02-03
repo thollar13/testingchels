@@ -92,6 +92,27 @@
 	          $('.show-nav').toggle();
 	        });
 	      }
+	    },
+	    campaignBuilder : {
+	    	test : function() {
+	    		return true;
+	    	},
+	    	run : function() {
+	    		var showCampaign = Cookies.get('campaign');
+
+	    		if(showCampaign != 'active') {
+	    			$('.campaign-builder').addClass('activate-campaign');
+	    		}
+
+	    		$('.campaign-success').click(function() {
+	    			Cookies.set('campaign', 'active');
+	    			$('.campaign-builder').fadeOut();
+	    		});
+	    		$('.campaign-builder__close').click(function() {
+	    			Cookies.set('campaign', 'active', { expires: 1 });
+	    			$('.campaign-builder').fadeOut();
+	    		});
+	    	}
 	    }
 		};
 	for (var key in wb){
