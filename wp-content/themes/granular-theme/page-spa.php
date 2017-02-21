@@ -69,7 +69,7 @@ get_header(); ?>
 									<h3>NovaLash Lash Extensions</h3>
 									<p>NovaLash Lash Extensions are a glamorous new way to extend the length and thickness of natural eyelashes, and are a practical, convenient and beautiful alternative to the daily use of mascara. Unlike decades-old, traditional false lashes, lash extensions are the first innovation in lash lengthening that can be worn daily, without nightly removal. Because each tapered, synthetic lash is bonded to a single natural lash, the final result is of effortless glamour and difficult to detect even close up.</p>
 									<h3>Full Set <span>$200.00</span></h3>
-									<h3>Fills/Maintenance <span>$50.00</span></h3>
+									<h3>Fills/Maintenance <span>$60.00</span></h3>
 								</div>
 							</div>
 						</div>
