@@ -230,10 +230,10 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
-				<h5>NovaLash Lash Extensions - Full Set <!-- <span>$200.00< -->/span></h5>
-				<h5>NovaLash Lash Extensions - Fills/Maintenance <!-- <span>$50.00< -->/span></h5>
-				<h5>Lash Extensions<!-- <span>$35-45< -->/span></h5>
-				<h5>Lash Extension Fills <!-- <span>$15-25< -->/span></h5>
+				<h5>NovaLash Lash Extensions - Full Set <!-- <span>$200.00</span> --></h5>
+				<h5>NovaLash Lash Extensions - Fills/Maintenance <!-- <span>$50.00</span> --></h5>
+				<h5>Lash Extensions<!-- <span>$35-45</span> --></h5>
+				<h5>Lash Extension Fills <!-- <span>$15-25</span> --></h5>
 				<h5>Brow Tint<!-- <span>$15</span> --></h5>
 				<h5>Lash Tint<!-- <span>$25</span> --></h5>
 				<br/><br/><br/>
