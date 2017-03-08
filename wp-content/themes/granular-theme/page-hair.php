@@ -65,6 +65,9 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 						<span>$29-38</span><br>
 						<p></p>
 					</li>
+					<li>Bang Trim<span>$15</span><br>
+						<p></p>
+					</li>
 				</ul>
 			</div>
 			<div class="col-sm-6">
@@ -73,9 +76,6 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 						<p></p>
 					</li>
 					<li>Children (7-12)<span>$20-30</span><br>
-						<p></p>
-					</li>
-					<li>Bang Trim<span>$15</span><br>
 						<p></p>
 					</li>
 				</ul>
@@ -248,7 +248,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-12">
 				<h5>NovaLash Lash Extensions - Full Set <span>$200</span></h5>
 				<h5>NovaLash Lash Extensions - Fills/Maintenance <span>$60</span></h5>
 				<h5>Lash Extensions<span>$25-35</span></h5>
