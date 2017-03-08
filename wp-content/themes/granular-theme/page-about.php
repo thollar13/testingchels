@@ -73,49 +73,22 @@ get_header(); ?>
 				</div>
 				<div class="front-desk">
 					<div class="row">
-						<?php $count == 0; if(have_rows('second_tier_employee')) : while(have_rows('second_tier_employee')) : the_row('second_tier_employee'); ?>
-							<?php if($count % 2 == 0 ) { ?>
-								<div class="col-xs-5 col-xs-offset-1 col-sm-3 col-md-3">
-							<?php } else { ?>
-								<div class="col-xs-5 col-sm-3 col-md-3">
-							<?php } ?>
+						<div class="staff-img__wrap">
+							<?php 
+								if(have_rows('second_tier_employee')) : while(have_rows('second_tier_employee')) : the_row('second_tier_employee'); 
+							?>
+							<div class="staff-wrap staff-img <?php the_field('position'); ?>" data-about="<?php echo get_field('about'); ?>" data-image="<?php echo get_field('image'); ?>" data-level="<?php echo get_field('level'); ?>" data-position="<?php echo get_field('position'); ?>" data-name="<?php echo get_the_title(); ?>"  style="background-image: url('<?php return_imgix(get_field('image'), 400, 400, 100); ?>');">
 								<div class="front-desk-indiv" style="background-image:url('<?php return_imgix(get_sub_field('image'), 400, 300, 100); ?>');">
 								</div>
 								<h4><?php the_sub_field('full_name'); ?></h4>
 							</div>
-							<?php if($count == 3 || $count == 7) {
-								echo "</div><div class='row'>";
-							}
-							$count ++; ?>
+
 							<?php endwhile; endif; ?>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<?php if(have_rows('assistants')) : ?>
-			<div class="customer-service">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1>Assistants</h1>
-					</div>
-				</div>
-				<div class="front-desk">
-					<div class="row">
-						<?php $count == 0; if(have_rows('assistants')) : while(have_rows('assistants')) : the_row('assistants'); ?>
-							<div class="col-xs-6 col-sm-3 col-md-3">
-								<div class="front-desk-indiv" style="background-image:url('<?php return_imgix(get_sub_field('image'), 400, 300, 100); ?>');">
-								</div>
-								<h4><?php the_sub_field('name'); ?></h4>
-							</div>
-							<?php if($count == 3 || $count == 7) {
-								echo "</div><div class='row'>";
-							}
-							$count ++; ?>
-							<?php endwhile; endif; ?>
-					</div>
-				</div>
-			</div>
-			<?php endif; ?>
 		</div>
 	</section>
 </div>
