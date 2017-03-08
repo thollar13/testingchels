@@ -66,24 +66,26 @@ get_header(); ?>
 			<?php endwhile; endif; ?>
 			
 			<div class="customer-service">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1>Customer Service</h1>
-					</div>
-				</div>
-				<div class="front-desk">
+				<div class="container">
 					<div class="row">
-						<?php $count == 0; if(have_rows('second_tier_employee')) : while(have_rows('second_tier_employee')) : the_row('second_tier_employee'); ?>
-								<div class="col-xs-3">
-								<div class="front-desk-indiv" style="background-image:url('<?php return_imgix(get_sub_field('image'), 400, 300, 100); ?>');">
+						<div class="col-sm-12">
+							<h1>Customer Service</h1>
+						</div>
+					</div>
+					<div class="front-desk">
+						<div class="row">
+							<?php $count == 0; if(have_rows('second_tier_employee')) : while(have_rows('second_tier_employee')) : the_row('second_tier_employee'); ?>
+									<div class="col-xs-3">
+									<div class="front-desk-indiv" style="background-image:url('<?php return_imgix(get_sub_field('image'), 400, 300, 100); ?>');">
+									</div>
+									<h4><?php the_sub_field('full_name'); ?></h4>
 								</div>
-								<h4><?php the_sub_field('full_name'); ?></h4>
-							</div>
-							<?php if($count == 3 || $count == 7) {
-								echo "</div><div class='row'>";
-							}
-							$count ++; ?>
-							<?php endwhile; endif; ?>
+								<?php if($count == 3 || $count == 7) {
+									echo "</div><div class='row'>";
+								}
+								$count ++; ?>
+								<?php endwhile; endif; ?>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -161,7 +161,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		<div class="row">
 			<div class="col-sm-6">
 				<h5>Scalp Detox Treatment for Thinning Hair <!-- <span>$50</span> --></h5>
-				<p>A refreshing scalp massage with tumeric and ginseng to energize and improve micro-circulation. Helps create a healthy scalp environment for an enhanced experience with Invati solutions for thinning hair, helping to reduce hair loss. Includes Shampoo and Style.</p>
+				<p>A refreshing scalp massage with turmeric and ginseng to energize and improve micro-circulation. Helps create a healthy scalp environment for an enhanced experience with Invati solutions for thinning hair, helping to reduce hair loss. Includes Shampoo and Style.</p>
 			</div>
 			<div class="col-sm-6">
 				<h5>Dry Remedy Moisture Treatment as Add-on with Service <!-- <span>$15</span> --></h5>
