@@ -80,7 +80,7 @@ get_header(); ?>
 							<div class="staff-wrap staff-img <?php the_field('position'); ?>" data-about="<?php echo get_field('about'); ?>" data-image="<?php echo get_field('image'); ?>" data-level="<?php echo get_field('level'); ?>" data-position="<?php echo get_field('position'); ?>" data-name="<?php echo get_the_title(); ?>"  style="background-image: url('<?php return_imgix(get_field('image'), 400, 400, 100); ?>');">
 								<div class="front-desk-indiv" style="background-image:url('<?php return_imgix(get_sub_field('image'), 400, 300, 100); ?>');">
 								</div>
-								<h4><?php the_sub_field('full_name'); ?></h4>
+								<h4><?php the_sub_field('name'); ?></h4>
 							</div>
 
 							<?php endwhile; endif; ?>
