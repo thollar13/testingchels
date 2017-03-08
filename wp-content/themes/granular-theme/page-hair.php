@@ -58,21 +58,24 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 			<div class="col-sm-6">
 				<ul class="special-list">
 					<li>Women 
-						<!-- <span>$38-53</span><br> -->
+						<span>$38-58</span><br>
 						<p></p>
 					</li>
 					<li> Men 
-						<!-- <span>$29-37</span><br> -->
+						<span>$29-38</span><br>
 						<p></p>
 					</li>
 				</ul>
 			</div>
 			<div class="col-sm-6">
 				<ul class="special-list">
-					<li>Children (10 and under)<!-- <span>$18-30</span> --><br>
+					<li>Children (1-6)<span>$15-32</span><br>
 						<p></p>
 					</li>
-					<li>Bang Trim<!-- <span>$15</span> --><br>
+					<li>Children (7-12)<span>$20-30</span><br>
+						<p></p>
+					</li>
+					<li>Bang Trim<span>$15</span><br>
 						<p></p>
 					</li>
 				</ul>
@@ -90,19 +93,19 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		</div>
 		<div class="row">
 			<div class="col-sm-3">
-				<h5>Body Wave <!-- <span>$95</span> --></h5>
+				<h5>Body Wave <span>$85-100</span></h5>
 				<p>For a full head of curls on hair that is above the shoulder.</p>
 			</div>
 			<div class="col-sm-3">
-				<h5>Spiral Curl <!-- <span>$175</span> --></h5>
+				<h5>Spiral Curl <span>$170-180</span></h5>
 				<p>For a full head of curls on hair that is shoulder length or longer.</p>
 			</div>
 			<div class="col-sm-3">
-				<h5>Relaxer <!-- <span>$75-95</span> --></h5>
+				<h5>Relaxer <span>$75-100</span></h5>
 				<p>For naturally curly or coarse hair to soften and make more manageable.</p>
 			</div>
 			<div class="col-sm-3">
-				<h5>Touch Up <!-- <span>$65-85</span -->></h5>
+				<h5>Touch Up <span>$65-95</span></h5>
 				<p>For relaxed hair, as a maintenance on the roots.</p>
 			</div>
 		</div>
@@ -118,19 +121,19 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		</div>
 		<div class="row">
 			<div class="col-sm-3">
-				<h5>SHAMPOO AND STYLE <!-- <span>$30-33</span> --></h5>
+				<h5>SHAMPOO AND BLOWDRY <span>$30-33</span></h5>
 				<p>An invigorating shampoo and conditioning treatment, a stress relieving hot towel treatment, complete with the style of your choice.</p>
 			</div>
 			<div class="col-sm-3">
-				<h5>STRAIGHT STYLE <!-- <span>$40-60</span> --></h5>
+				<h5>STRAIGHT STYLE <span>$40-65</span></h5>
 				<p>A stress relieving scalp massage, hot towel treatment and invigorating shampoo and conditioning treatment. Includes a blow dry and your choice of a flat iron or curling iron style.</p>
 			</div>
 			<div class="col-sm-3">
-				<h5>BRIDAL STYLE <!-- <span>$150</span> --></h5>
+				<h5>BRIDAL STYLE <span>$145-160</span></h5>
 				<p>*Please note that the full service price is due at your practice appointment. Be sure to arrive with clean, dry hair and a button down shirt.</p>
 			</div>
 			<div class="col-sm-3">
-				<h5>FORMAL STYLE <!-- <span>$60</span> --></h5>
+				<h5>FORMAL STYLE <span>$58-65</span></h5>
 				<p>*Please be sure to arrive with clean, dry hair. </p>
 			</div>
 		</div>
@@ -195,26 +198,36 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<h5>Partial Highlight <!-- <span>$67-83</span> --></h5>
+				<h5>Partial Highlight <span>$70-88</span></h5>
 				<p>Color or colors applied for dimension and brightness to accent your look applied on half or less of the hair.  </p>
 			</div>
 			<div class="col-sm-4">
-				<h5>Full Highlight <!-- <span>$80-100</span> --></h5>
+				<h5>Full Highlight <span>$85-105</span></h5>
 				<p>Color or colors for extra dimension throughout the majority of the hair.  </p>
 			</div>
 			<div class="col-sm-4">
-				<h5>Accent Highlights <!-- <span>$25-40</span> --></h5>
+				<h5>Accent Highlights <span>$55-73</span></h5>
 				<p>Just a touch of color for a face framing accent.  </p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
-				<h5>Full Color <!-- <span>$75-90</span> --></h5>
+				<h5>Full Color <span>$80-95</span></h5>
 				<p>Color coverage from root to tip, either permanent or demi-permanent.  </p>
 			</div>
 			<div class="col-sm-4">
-				<h5>Root Connection <!-- <span>$65-75</span> --></h5>
+				<h5>Root Connection <span>$60-80</span></h5>
 				<p>Color on the new growth line.  </p>
+			</div>
+			<div class="col-sm-4">
+				<h5>Balayage <span>$150-170</span></h5>
+				<p></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<h5>Ombre <span>$150-170</span></h5>
+				<p></p>
 			</div>
 		</div>
 	</div>
@@ -230,12 +243,11 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
-				<h5>NovaLash Lash Extensions - Full Set <!-- <span>$200.00</span> --></h5>
-				<h5>NovaLash Lash Extensions - Fills/Maintenance <!-- <span>$50.00</span> --></h5>
-				<h5>Lash Extensions<!-- <span>$35-45</span> --></h5>
-				<h5>Lash Extension Fills <!-- <span>$15-25</span> --></h5>
-				<h5>Brow Tint<!-- <span>$15</span> --></h5>
-				<h5>Lash Tint<!-- <span>$25</span> --></h5>
+				<h5>NovaLash Lash Extensions - Full Set <span>$200</span></h5>
+				<h5>NovaLash Lash Extensions - Fills/Maintenance <span>$60</span></h5>
+				<h5>Lash Extensions<span>$25-35</span></h5>
+				<h5>Brow Tint<span>$15</span></h5>
+				<h5>Lash Tint<span>$25</span></h5>
 				<br/><br/><br/>
 			</div>
 		</div>
