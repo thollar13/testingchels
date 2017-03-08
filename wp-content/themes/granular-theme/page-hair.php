@@ -55,7 +55,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-12">
 				<ul class="special-list">
 					<li>Women 
 						<span>$38-58</span><br>
@@ -65,17 +65,13 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 						<span>$29-38</span><br>
 						<p></p>
 					</li>
-					<li>Bang Trim<span>$15</span><br>
-						<p></p>
-					</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<ul class="special-list">
 					<li>Children (1-6)<span>$15-32</span><br>
 						<p></p>
 					</li>
 					<li>Children (7-12)<span>$20-30</span><br>
+						<p></p>
+					</li>
+					<li>Bang Trim<span>$15</span><br>
 						<p></p>
 					</li>
 				</ul>
