@@ -120,11 +120,11 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		<div class="row">
 			<div class="col-sm-6">
 				<h5>SHAMPOO AND BLOWDRY <span>$30-33</span></h5>
-				<p>An invigorating shampoo and conditioning treatment, a stress relieving hot towel treatment, complete with the style of your choice.</p>
+				<p>An invigorating shampoo and conditioning treatment, a stress relieving hot towel treatment, complete with a styling blow-dry.</p>
 			</div>
 			<div class="col-sm-6">
-				<h5>STRAIGHT STYLE <span>$40-65</span></h5>
-				<p>A stress relieving scalp massage, hot towel treatment and invigorating shampoo and conditioning treatment. Includes a blow dry and your choice of a flat iron or curling iron style.</p>
+				<h5>SHAMPOO AND STYLE <span>$40-65</span></h5>
+				<p>An invigorating shampoo and conditioning, with a stress relieving scalp massage and hot towel treatment. Includes a blow-dry and your choice of a flat iron or curling iron style.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -137,6 +137,14 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 				<p>*Please be sure to arrive with clean, dry hair. </p>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<h5>CREATIVE BRAIDING (consultation required)</h5>
+				<p>Fashion Braids or Protective Styles including Twist-Out, Bantu Knots, Flat Twists, and Braids for all types of hair.</p>
+				<p>With Shampoo Blow-dry <span class="color-green">$45/hour</span></p>
+				<p>Without Shampoo Blow-dry <span class="color-green">$36-40/hour</span></p>
+			</div>
+		</div>
 	</div>
 </section>
 <section class="hair-care-wrap">
@@ -144,43 +152,43 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 		<div class="row">
 			<div class="col-sm-12">
 				<h4>Conditioning Treatments</h4>
-				<p>Most conditioners will be applied automatically during the haircut service. If you feel that you need extra conditioning, we offer Damage remedy, for highly damaged hair and Botanical Hair Therapy for a luxurious deep conditioning.</p>
+				<!-- <p>Most conditioners will be applied automatically during the haircut service. If you feel that you need extra conditioning, we offer Damage remedy, for highly damaged hair and Botanical Hair Therapy for a luxurious deep conditioning.</p> -->
 				<hr>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6">
-				<h5>Hair and Scalp Dry Remedy Treatment <!-- <span>$50</span> --></h5>
+				<h5>Hair and Scalp Dry Remedy Treatment <span>$50</span></h5>
 				<p>Beginning with a restorative scalp treatment and ending with a transforming moisture treatment leaving hair soft, silky, and shiny. Includes Shampoo and Style.</p>
 			</div>
 			<div class="col-sm-6">
-				<h5>Hair and Scalp Damage Remedy Treatment <!-- <span>$50</span> --></h5>
+				<h5>Hair and Scalp Damage Remedy Treatment <span>$50</span></h5>
 				<p>An intensive scalp and hair treatment to help repair, seal and smooth even the most damaged hair. Includes Shampoo and Style.</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6">
-				<h5>Scalp Detox Treatment for Thinning Hair <!-- <span>$50</span> --></h5>
+				<h5>Scalp Detox Treatment for Thinning Hair <span>$50</span></h5>
 				<p>A refreshing scalp massage with turmeric and ginseng to energize and improve micro-circulation. Helps create a healthy scalp environment for an enhanced experience with Invati solutions for thinning hair, helping to reduce hair loss. Includes Shampoo and Style.</p>
 			</div>
 			<div class="col-sm-6">
-				<h5>Dry Remedy Moisture Treatment as Add-on with Service <!-- <span>$15</span> --></h5>
+				<h5>Dry Remedy Moisture Treatment as Add-on with Service <span>$15</span></h5>
 				<p>Improves dry hair with the power of burti and pomegranate oils, leaving strands soft, silky and shiny.</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6">
-				<h5>Damage Remedy Repair Treatment as Add-on with Service <!-- <span>$15</span> --></h5>
+				<h5>Damage Remedy Repair Treatment as Add-on with Service <span>$15</span></h5>
 				<p>Improves damaged hair with the power of quinoa protein and sugar beet-derived amino acid, leaving strands strong and supple.  </p>
 			</div>
 			<div class="col-sm-6">
-				<h5>Scalp Remedy Treatment as Add-on with Service <!-- <span>$25</span> --></h5>
+				<h5>Scalp Remedy Treatment as Add-on with Service <span>$15</span></h5>
 				<p>A deep, restorative massage with the aroma-therapeutic essential oil blend for the healthiest balance to your scalp, setting the stage for beautiful hair.</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6">
-				<h5>Scalp Detox Treatment as Add-on with Service <!-- <span>$25</span> --></h5>
+				<h5>Scalp Detox Treatment as Add-on with Service <span>$15</span></h5>
 				<p>A deep cleansing, refreshing massage with wintergreen-derived salicylic  acid that gently exfoliates your scalp and removes build-up that may affect healthy hair.  </p>
 
 			</div>
@@ -223,13 +231,18 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 			</div>
 			<div class="col-sm-6">
 				<h5>Balayage <span>$150-170</span></h5>
-				<p></p>
+				<p>A hair painting technique, making bright, natural highlights.</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6">
-				<h5>Ombre <span>$150-170</span></h5>
-				<p></p>
+				<h5>Ombre´ <span>$150-170</span></h5>
+				<p>A dramatic effect of transitioning from a natural root color to lighter ends.</p>
+			</div>
+			<div class="col-sm-6">
+				<h5>Grey Blending <span>$50-53</span></h5>
+				<p>Customized for every shade of grey, Aveda Natural Grey Blending includes 5 pre-blended shades, randining from light natural to dark ash, which provides guests natural looking grey, specific to the look they are after.</p>
+				<p><span class="color-green">*Grey blending add-on to any service for $20</span></p>
 			</div>
 		</div>
 	</div>
@@ -250,6 +263,11 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 				<h5>Lash Extensions<span>$25-35</span></h5>
 				<h5>Brow Tint<span>$15</span></h5>
 				<h5>Lash Tint<span>$25</span></h5>
+				<h5>Eye Wax<span>$15</span></h5>
+				<h5>Lip Wax<span>$15</span></h5>
+				<h5>Chin Wax<span>$12</span></h5>
+				<h5>Brow Tint and Wax Combo<span>$27</span></h5>
+				<p>*Body waxing available in spa</p>
 				<br/><br/><br/>
 			</div>
 		</div>
