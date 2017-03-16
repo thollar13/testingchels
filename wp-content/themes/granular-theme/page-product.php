@@ -26,7 +26,7 @@ get_header(); ?>
         				<h3 class="color-tan bg-black" style="color: #c4daa7;"><?php the_title(); ?></h3>
         				<hr style="border-top: 5px solid #444; margin-top: -40px; margin-bottom: 30px; ">
         				<p><?php the_field('description'); ?></p>
-        				<a class="btn btn-lightblack" href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Spa Packages">Purchase</a>
+        				<a class="btn btn-lightblack" href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Spa Packages">Purchase Now</a>
         			</div>
         		</div>
         	</div>
