@@ -2153,9 +2153,9 @@ $mobile: 767px;
 .simple-text {
 	display: block;
   width: 100%;
-  padding: 2em 0 1em;
+  padding: 4em 0 1em;
   position: relative;
-  hr { top: 35px !important; }
+  hr { top: 65px !important; }
 }
 .sectional {
 	padding: 5em 0;
@@ -2177,7 +2177,7 @@ $mobile: 767px;
 		position: relative;
 		padding-right: 1em;
 		margin-bottom: 1em;
-		padding-left: 15px;
+		padding-left: 20px;
 	}
 	hr {
 		position: absolute;
@@ -2218,7 +2218,8 @@ $mobile: 767px;
 	padding: 15px;
 	box-sizing: border-box;
 	margin-bottom: 50px;
-	width: 31.5%;
+	width: 32.33%;
+	margin: 0.5%;
 	position: relative;
 	h3 {
 		font-size: 1.75em;
