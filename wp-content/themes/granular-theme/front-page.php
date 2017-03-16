@@ -62,7 +62,7 @@ get_header(); ?>
 	</div>
 
 	<div class="featured bg-black color-white pt3 pb4" style="position: relative;">
-		<h2 class="color-tan">Spa Packages</h2>
+		<h2 class="color-tan">Featured Packages</h2>
 		<?php $posts = get_field('featured_packages');
 		if( $posts ): foreach( $posts as $post): ?>
 	        <?php setup_postdata($post); ?>
@@ -74,10 +74,10 @@ get_header(); ?>
         				<div class="featured__image" style="background-size: cover; background-position: center; background-image: url('<?php return_imgix(get_field('image'), 400, 300, 100); ?>');"></div>
         			</div>
         			<div class="col-sm-6 col-sm-offset-1">
-        				<h3 class="color-tan bg-black"><?php the_title(); ?></h3>
-        				<hr style="border-top: 5px solid #c4daa7; margin-top: -43px; margin-bottom: 30px; ">
+        				<h3 class="color-tan bg-black" style="color: #c4daa7;"><?php the_title(); ?></h3>
+        				<hr style="border-top: 5px solid #444; margin-top: -40px; margin-bottom: 30px; ">
         				<p><?php the_field('description'); ?></p>
-        				<!-- <a class="btn btn-white" href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Spa Packages">Purchase Now</a> -->
+        				<a class="btn btn-lightblack" href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Spa Packages">Purchase Now</a>
         			</div>
         		</div>
         	</div>
@@ -85,7 +85,7 @@ get_header(); ?>
 	    <?php endforeach; ?>
 	    <?php wp_reset_postdata(); ?>
 		<?php endif; ?>
-		
+		<a href="<?php echo the_permalink(); ?>spa-packages" class="view-all-packages">View All Packages</a>
 	</div>
 
 	<div class="flex vp5 center color-black gift-card--callout">

@@ -351,8 +351,13 @@ section {
 		}
 }
 .product-wrap {
-	max-width: 95%;
 	margin: 0 auto;
+	background: $black;
+	h1 { color: white; }
+	.featured__card {
+		h3 { display: inline-block; background: $black; padding-right: 25px; }
+		p { color: white; }
+	}
 }
 .button-transparent {
 		border: 2px solid $gold;
@@ -1706,7 +1711,7 @@ section {
 /* REVAMP */
 .btn {
 		border-radius: 0;
-		border: 2px solid;
+		border: 1px solid;
 		color: black;
 		display: inline-block;
 		padding: 10px 15px;
@@ -1730,6 +1735,14 @@ section {
 				background: white;
 				color: black;
 		}
+}
+.btn-lightblack {
+	border-color: #444;
+	color: white;
+	&:hover {
+		background: #444;
+		color: white;
+	}
 }
 .block { display: block; }
 .inline-block { display: inline-block; }
@@ -2282,7 +2295,7 @@ $mobile: 767px;
 	}
 	hr {
 		border-top: 5px solid #b4cd95; 
-		margin-top: -40px; 
+		margin-top: -55px;
 		margin-bottom: 50px;
 	}
 	img {
@@ -2376,4 +2389,15 @@ $mobile: 767px;
 
 .activate-campaign {
 	display: flex;
+}
+
+.view-all-packages {
+	color: white;
+	display: block;
+	margin: 0 auto;
+	font-size: 1.25em;
+	text-align: center;
+	&:active, &:hover, &:visited, &:focus {
+		color: #f0f0f0;
+	}
 }
