@@ -1747,10 +1747,6 @@ section {
 	padding: 15px;
 	box-sizing: border-box;
 	margin-bottom: 50px;
-	border: 1px solid #f0f0f0;
-	border: 1px solid #f0f0f0;
-	min-height: 450px;
-
 }
 .grey-wrap {
 		background-color: #f0f0f0;
@@ -2192,7 +2188,6 @@ $mobile: 767px;
 		h1 { background: $white; }
 		hr { background: $black;}
 		.special { background-color: rgb(240, 240, 240); }
-		.service-wrap { border: 1px solid #f0f0f0; }
 		h5 { color: #333; }
 	}
 	&:nth-child(2n-1) {
@@ -2205,7 +2200,6 @@ $mobile: 767px;
 		hr { background: #333;}
 		h3 { color: $gold; }
 		.special { background-color: #333;}
-		.service-wrap { border: 1px solid #333; }
 	}
 	@media(max-width: 767px) {
 		hr { top: 13px; }
@@ -2219,7 +2213,6 @@ $mobile: 767px;
 	padding: 15px;
 	box-sizing: border-box;
 	margin-bottom: 50px;
-	min-height: 450px;
 	width: 31.5%;
 	position: relative;
 	h3 {
@@ -2233,7 +2226,7 @@ $mobile: 767px;
 		color: #c0c0c0;
 		font-size: 1.25em;
 		font-family: 'Open Sans', sans-serif;
-		text-align: right;
+		font-style: italic;
 	}
 	p { margin-top: 1em; }
 	&.black { 
@@ -2246,9 +2239,8 @@ $mobile: 767px;
 		color: $black;
 	}
 	&--pricing {
-		position: absolute;
-		right: 15px;
-		bottom: 15px;
+		position: relative;
+		margin-top: 15px;
 	}
 	&--purchase {
 		position: absolute;
