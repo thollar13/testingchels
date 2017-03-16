@@ -2059,8 +2059,12 @@ $mobile: 767px;
 }
 
 .flex {
-		display: flex;
-	flex-wrap: wrap;
+	display: flex;
+	flex-flow: row wrap;
+	&:after {
+	  content: "";
+	  flex: auto;
+	}
 }
 .space-between {
 	justify-content: space-between;
@@ -2150,8 +2154,8 @@ $mobile: 767px;
 	display: block;
   width: 100%;
   padding: 2em 0 1em;
-  text-align: center;
-  // font-style: italic;
+  position: relative;
+  hr { top: 35px !important; }
 }
 .sectional {
 	padding: 5em 0;
@@ -2173,6 +2177,7 @@ $mobile: 767px;
 		position: relative;
 		padding-right: 1em;
 		margin-bottom: 1em;
+		padding-left: 15px;
 	}
 	hr {
 		position: absolute;
@@ -2187,7 +2192,7 @@ $mobile: 767px;
 		color: $black;
 		h1 { background: $white; }
 		hr { background: $black;}
-		.special { background-color: rgb(240, 240, 240); }
+		// .special { background-color: rgb(240, 240, 240); }
 		h5 { color: #333; }
 	}
 	&:nth-child(2n-1) {
@@ -2199,7 +2204,7 @@ $mobile: 767px;
 		}
 		hr { background: #333;}
 		h3 { color: $gold; }
-		.special { background-color: #333;}
+		// .special { background-color: #333;}
 	}
 	@media(max-width: 767px) {
 		hr { top: 13px; }
