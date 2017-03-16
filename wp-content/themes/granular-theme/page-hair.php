@@ -43,7 +43,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 			</div>
 		</div>
 
-<?php $count++; endwhile; wp_reset_query(); ?>
+<?php endwhile; wp_reset_query(); ?>
 
 </div>
 
