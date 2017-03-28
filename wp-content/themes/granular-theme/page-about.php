@@ -25,27 +25,30 @@ get_header(); ?>
 				<div class="col-sm-12">
 					<section class="main-txt">
 						<h1><?php the_field('main_header'); ?></h1>
-						<!-- <h3 class="color-tan" style="text-align: center; margin-top: 30px;">Serving Tallahassee since 1977</h3> -->
 					</section>
 				</div>
 				<div class="col-xs-12">
-					<section class="main-txt" style="text-align: center;">
+					<section class="main-txt">
 						<p><?php the_field('main_content'); ?></p>
 					</section>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-6">
-					<?php $count = 1; if(have_rows('featured_point')) : while(have_rows('featured_point')) : the_row('featured_point'); ?>
-					<?php if($count == 5) {
-						echo "</div><div class='col-xs-6'>";
-					} ?>
-						<p style="font-size: 1.25em;"><i class="fa fa-angle-right" style="margin-bottom: 15px;"></i> <span><?php the_sub_field('featured_year'); ?></span> <?php the_sub_field('featured_text'); ?></p>
-					<?php $count++; endwhile; endif; ?> 
-				</div>
-			</div>
 		</div>
 	</section>
+
+	<div class="instruction-section">
+			<div class="specialized-instruction vp-xs-bottom-4">
+				<?php if(have_rows('featured_point')) : while(have_rows('featured_point')) : the_row('featured_point'); ?>
+					<div class="instruction">
+						<div>
+							<h5><?php the_sub_field('featured_year'); ?></h5>
+							<p><?php the_sub_field('featured_text'); ?></p>
+						</div>
+					</div>
+					
+				<?php $count++; endwhile; endif; ?> 
+			</div>
+		</div>
 
 	<section class="about-owners">
 		<div class="container">
@@ -91,6 +94,21 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+
+	<div class="flex vp5 center color-black gift-card--callout">
+		<div class="flex__item">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<h3 class="mb2" style="font-family: 'Playfair Display'; font-style: italic; background: white; display: inline-block; padding: 0 20px;">A Gift Certificate Is The Perfect Gift!</h3>
+						<hr style="border-top: 5px solid #b4cd95; margin-top: -70px; margin-bottom: 50px;">
+						<p class="mb2">Purchasing a Chelsea Salon Gift Card or Spa Package is an easy and convenient way to indulge that special someone in your life.</p>
+						<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black mt2 m0-auto block bg-black color-white">Purchase Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <?php get_footer(); ?>

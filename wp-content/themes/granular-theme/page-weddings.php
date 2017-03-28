@@ -23,11 +23,10 @@
 				<div class="col-sm-6 col-sm-offset-3">
 					<h3>At Chelsea Salon &amp; Spa we have everything you need in preparation for your big day!</h3>
 					<hr class="hr-green">
-					<p>Beautiful Bridal Styles for $150.00, which includes a practice session!</p>
+					<p>Beautiful Bridal Styles from $145-160, which includes a practice session!</p>
 					<p>We offer On­Site Bridal &amp; Formal Styles! <br/>*Call to request pricing</p>
 
-					<p>Formal Styles for Bridesmaids, Mother of the Bride, Mother of the Groom and Flower Girls are priced at $60.00</p>
-					<p>*Children 10 and under Formal Style: $35.00</p>
+					<p>Formal Styles for Bridesmaids, Mother of the Bride, Mother of the Groom and Flower Girls are priced at $58-65</p>
 					<p>*Please arrive with clean dry hair and a button down shirt*</p>
 					
 					<hr class="hr-green">

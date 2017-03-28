@@ -14,6 +14,31 @@
 	        });
 	      }
 	    },
+	    slider : {
+			test : function () {
+				return true;
+			},
+			run : function () {
+			  $('.specialized-instruction').slick({
+			  	mobileFirst: true,
+			    dots: true,
+		      infinite: true,
+		      speed: 300,
+		      slidesToShow: 1,
+			    slidesToScroll: 1,
+			    responsive: [
+	        {
+	          breakpoint: 767,
+	          settings: {
+	            slidesToShow: 3,
+	            slidesToScroll: 1,
+	            infinite: true,
+	            dots: true
+	          }
+	        }]
+			  });
+			}
+		},
 	    weddingHover : {
 	      test : function() {
 	        return true;
