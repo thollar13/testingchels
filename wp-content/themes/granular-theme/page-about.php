@@ -38,7 +38,7 @@ get_header(); ?>
 
 	<div class="instruction-section">
 			<div class="specialized-instruction vp-xs-bottom-4">
-				<?php if(have_rows('featured_point')) : while(have_rows('featured_point')) : the_row('featured_point'); ?>
+				<?php $count = 0; if(have_rows('featured_point')) : while(have_rows('featured_point')) : the_row('featured_point'); ?>
 					<div class="instruction">
 						<div>
 							<h5><?php the_sub_field('featured_year'); ?></h5>
