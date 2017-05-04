@@ -28,6 +28,7 @@ get_header(); ?>
 								<?php if(get_sub_field('include_link') == 'yes') { ?>
 									<a href="<?php the_sub_field('link_url'); ?>" class="btn btn-black"><?php the_sub_field('link_text'); ?></a>
 								<?php } ?>
+								<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn mobile">Book Now</a>
 							</div>
 						</div>
 					</div>	
