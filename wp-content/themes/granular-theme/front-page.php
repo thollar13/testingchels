@@ -24,7 +24,7 @@ get_header(); ?>
 						<div class="row" style="font-size: <?php echo $fontSize; ?>;">
 							<div class="col-sm-12">
 								<h1><?php the_sub_field('headline'); ?></h1>
-								<p style="width: 100%;"><?php the_sub_field('content'); ?></p>
+								<p style="width: 75%; margin: 0 auto;"><?php the_sub_field('content'); ?></p>
 								<?php if(get_sub_field('include_link') == 'yes') { ?>
 									<a href="<?php the_sub_field('link_url'); ?>" class="btn btn-black"><?php the_sub_field('link_text'); ?></a>
 								<?php } ?>
