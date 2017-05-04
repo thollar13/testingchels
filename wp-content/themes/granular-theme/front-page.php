@@ -72,7 +72,7 @@ get_header(); ?>
         	<div class="container">
         		<div class="row">
         			<div class="col-sm-5">
-        				<div class="featured__image" style="background-size: cover; background-position: center; background-image: url('<?php return_imgix(get_field('image'), 400, 300, 100); ?>');"></div>
+        				<div class="featured__image" style="background-size: cover; background-position: center; background-image: url('<?php echo $image_src[0]; ?>');"></div>
         			</div>
         			<div class="col-sm-6 col-sm-offset-1">
         				<h3 class="color-tan bg-black" style="color: #c4daa7;"><?php the_title(); ?></h3>
