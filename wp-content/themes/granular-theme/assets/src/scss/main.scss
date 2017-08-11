@@ -260,7 +260,6 @@ footer {
 						th {
 								text-align: center;
 								color: #222;
-								font-family: 'Playball';
 								font-size: 1.5em;
 								color: $gold;
 						}
@@ -454,10 +453,6 @@ section {
 								font-size: 2em;
 						}
 				}
-		}
-		h1 {
-				font-family: 'Playball';
-				// text-align: center;
 		}
 		.about-section {
 				padding: 1em;
@@ -684,7 +679,6 @@ section {
 				h1 {
 						z-index: 1;
 						position: relative;
-						font-family: 'Playball';
 						color: white;
 						font-size: 4em;
 						margin-bottom: 25px;
@@ -721,7 +715,6 @@ section {
 				padding-top: 50px;
 				position: relative;
 				h1 {
-						font-family: 'Playball';
 						// padding-bottom: 50px;
 						font-size: 4em;
 						text-align: left;
@@ -895,7 +888,6 @@ section {
 				h1 {
 						z-index: 1;
 						position: relative;
-						font-family: 'Playball';
 						color: white;
 						font-size: 4em;
 				}
@@ -949,7 +941,6 @@ section {
 						font-size: 1.5em;
 						// font-weight: bold;
 						color: $black;
-						font-family: 'Playball';
 						span {
 								float: right;
 						}
@@ -977,7 +968,6 @@ section {
 				h1 {
 						z-index: 1;
 						position: relative;
-						font-family: 'Playball';
 						color: white;
 						font-size: 7em;
 				}
@@ -999,7 +989,6 @@ section {
 				h1 {
 						z-index: 1;
 						position: relative;
-						font-family: 'Playball';
 						font-size: 4em;
 						padding-top: 100px;
 						// text-align: center;
@@ -1840,7 +1829,6 @@ $mobile: 767px;
 				height: 100vh;
 		}
 		h1 {
-				font-family: 'Playfair Display';
 				font-style: italic;
 				font-size: 4.25em;
 				// @media only screen and (max-width: 1100px) { font-size: 6em; }
@@ -1967,7 +1955,6 @@ $mobile: 767px;
 
 .featured {
 		h2 {
-				font-family: 'Playfair Display';
 		font-style: italic;
 		margin-bottom: 1em;
 		position: absolute;
@@ -1983,7 +1970,6 @@ $mobile: 767px;
 		padding: 10px;
 		}
 		h3 { 
-			font-family: 'Playfair Display'; 
 			font-style: italic;
 			margin-top: 0px;
 			margin-bottom: 20px;
@@ -2309,7 +2295,6 @@ $mobile: 767px;
 .banner {
 	margin: 5em 0;
 	h2 {
-		font-family: 'Playfair Display'; 
 		font-style: italic; 
 		margin-bottom: 1em;
 		background: white; 
