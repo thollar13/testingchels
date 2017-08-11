@@ -10,7 +10,10 @@
   font-family: 'Playball';
   src: url('../../fonts/Playball-Regular.ttf') format('truetype');
 }
-
+@font-face {
+  font-family: 'GentiumItalic';
+  src: url('../../fonts/GenBkBasI.ttf') format('truetype');
+}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -19,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 400; 
-  font-family: 'Playball';
+  font-family: 'GentiumItalic';
 }
 
 @for $i from 1 to 6 {

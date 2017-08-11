@@ -134,7 +134,7 @@ p {
 		left: 0; 
 		width: 100%;
 		padding-bottom: 5px;
-		font-family: 'Playball';
+		font-family: 'GentiumItalic';
 		text-transform: lowercase;
 		border-bottom: 1px solid #111;
 		nav {
@@ -2575,3 +2575,90 @@ $mobile: 767px;
 	.slick-dots { left: 0; right: 0; }
 	.specialized-instruction { right: 0; }
 }
+
+
+
+.book-now-full {
+	  position: fixed;
+    left: 0;
+    top: 107px;
+    background: $gold;
+    font-size: 1.5em;
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    border-bottom-right-radius: 50px;
+    &:hover {
+    	background: lighten($gold, 5%);
+    }
+    @media(max-width: 1240px) {
+    	top: 102px;
+    }
+    @media(max-width: 1008px) {
+    	display: none;
+    }
+}
+.table-reference {
+  width: 100%;
+  text-align: center;
+  thead {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  tbody {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    tr {
+      height: 40px;
+      line-height: 40px;
+      td:first-child {
+        text-align: left;
+        padding-left: 15px;
+      }
+      &:nth-child(2n) {
+        background-color: #f0f0f0;
+      }
+    }
+  }
+}
+.table-comments {
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-top: 2em;
+	font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.vomor-hero {
+	height: 400px; 
+	margin-top: 100px; 
+	background-size: cover; 
+	background-position: center;
+	height: 0;
+	padding-bottom: 25%;
+	@media(max-width: 1008px) {
+		padding-bottom: 36%;
+		margin-top: 80px;
+	}
+}
+.vomor-mobile {
+	display: none;
+	@media(max-width: 1008px) {
+		display: block;
+	}
+}
+.vomor-section {
+	padding: 6em 0;
+	h1 { font-size: 3.5em; }
+	@media(max-width: 1008px) {
+		width: 90%; 
+		margin: 0 auto;
+		padding: 2em 0;
+		h1 { font-size: 2.75em; }
+		.table-comments, .table-reference { display: none; }
+	}
+}
+
+

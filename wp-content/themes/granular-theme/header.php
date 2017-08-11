@@ -27,6 +27,7 @@
 							<a class="phone" href="tel:850-878-8282">850-878-8282</a>
 						</a>
 					</div>
+					<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Book Now" class="book-now-full">Book Now</a>
 					<div class="mobile-nav">
 						<span></span>
 						<span></span>
@@ -36,10 +37,11 @@
 						<li><a href="/">Home</a><li><a href="/about" title="About">About</a></li>
 						<li><a href="/our-talent" title="Our Talent">Talent</a></li>
 						<li><a href="/hair-care" title="Hair Care">Hair</a></li>
+						<li><a href="/vomor-hair-extensions" title="Vomor Hair Extensions">Vomor</a></li>
 						<li><a href="/spa-services" title="Spa Services">Spa</a></li>
-						<li><a href="/weddings" title="weddings">Weddings</a></li>
 						<li><a href="/spa-packages" title="Spa Packages">Packages</a></li>
-						<li><a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Book Now">Book Now</a></li>
+						<li><a href="/weddings" title="weddings">Weddings</a></li>
+						<li class="mobile"><a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Book Now">Book Now</a></li>
 						<li class="mobile"><a href="tel:850-878-8282">Call Now</a></li>
 					</ul>
 				</nav>					
