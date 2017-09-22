@@ -66,11 +66,11 @@
 	      run : function() {
 	        $('.staff-filter').click(function() {
 	          var n = $(this).data('position');
-	          $(this).css('color', '#b4cd95');
-	          $(this).siblings().css('color', 'white');
+	          $(this).addClass('staff-filter--selected')
+	          $(this).siblings().removeClass('staff-filter--selected');
 
 	          if(n == 'stylistspa') {
-	            $('.staff-img').parent().show();
+	            $('.staff-img').show();
 	          } else {
 	            $('.'+n).siblings().hide();
 	            $('.'+n).show();

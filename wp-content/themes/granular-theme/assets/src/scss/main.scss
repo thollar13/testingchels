@@ -671,7 +671,10 @@ section {
 				text-decoration: none;
 		}
 }
-
+.staff-filter--selected {
+	background: #222;
+	color: $gold;
+}
 #staff-pg {
 		.hero {
 				height: 400px;
@@ -709,7 +712,7 @@ section {
 		}
 		.stylists {
 				// padding-bottom: 100px;
-				background: #222;
+				background: #FFF;
 				color: white;
 				padding-bottom: 100px;
 				padding-top: 50px;
@@ -737,7 +740,7 @@ section {
 				//  }
 				// }
 				@media only screen and(max-width: 767px) {
-						h1, .view-switch {
+						h1 {
 								text-align: center;
 						}
 				}
@@ -1351,21 +1354,22 @@ section {
 	background-size: cover;
 	background-position: center top;
 	position: relative;
-	margin-bottom: 30px;
 	overflow: hidden;
 	transition: .4s;
-	width: 23.5%;
-	margin: 0.75%;
+	width: 33.33%;
 	.overlay {
 		position: absolute;
 		height: 100%;
 		width: 100%;
-		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 50%,rgba(0,0,0,0.5) 100%);
+		// background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 50%,rgba(0,0,0,0.5) 100%);
 	}
 	h3 {
+		color: $gold;
 		position: absolute;
 		bottom: 0;
 		left: 15px;
+		background: #222;
+		padding: 2px 5px;
 	}
 	h5 {
 		position: absolute;
@@ -1401,23 +1405,20 @@ section {
 	&:hover {
 		p { opacity: 1; }
 	}
-	@media(max-width: 1000px) { width: 31.5%; }
+	@media(max-width: 1000px) { width: 50%; }
 	@media(max-width: 600px) { 
-		width: 48.5%; 
+		width: 100%; 
 		h3 { font-size: 1.75em; }
 	}
 }
 .view-switch {
-		margin-top: 50px;
-		text-align: right;
-		font-size: 1.5em;
+		font-size: 1em;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		span {
-				padding: 15px;
+				padding: 5px 10px;
 		}
 		span:hover {
-				color: $gold;
 				cursor: pointer;
 		}
 }
@@ -1491,30 +1492,33 @@ section {
 		left: 0;
 		bottom: 0;
 		right: 0;
-		background: rgba(0,0,0,0.8);
+		background: rgba(255, 255, 255, 0.8);
 		z-index: 1000000;
 		display: none;
 		overflow: scroll;
 		.talent-info {
-				width: 70%;
-				// top: 100px;
-				background: #333;
+				width: 1050px;
+				background: #fff;
 				position: absolute;
-				left: 15%;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
 				min-height: 350px;
-				color: white;
 				top: 50%;
 				transform: translateY(-50%);
+				box-shadow: 0 0 30px #cfcfcf;
 				p {
 						position: relative !important;
 						padding-top: 15px !important;
 						opacity: 1 !important;
+						color: #222;
+						position: relative;
 				}
 				.image-src {
 						position: absolute;
 						top: 0;
 						left: 0;
-						width: 300px;
+						width: 400px;
 						height: 100%;
 						border: none;
 						background-size: cover;
@@ -1523,7 +1527,7 @@ section {
 				span {
 					font-size: 2.5em;
 					background: transparent;
-					color: white;
+					color: #222;
 					top: -22px;
 					position: absolute;
 					right: 0;
@@ -1535,8 +1539,9 @@ section {
 				}
 				@media only screen and(max-width: 1100px) { 
 						text-align: center;
+						width: 90%;
 						.image-src {
-								width: 250px;
+								width: 400px;
 								height: 250px;
 								left: 0;
 								right: 0;
@@ -1547,6 +1552,11 @@ section {
 				@media only screen and(max-width: 600px) { 
 						top: 5%;
 						transform: none;
+						.image-src {
+							width: 300px;
+							height: 200px;
+							margin-top: 15px;
+						}
 				}
 		}
 		@media only screen and(max-width: 767px) { 
@@ -1566,8 +1576,8 @@ section {
 }
 .main-info {
 		float: right;
-		width: 60%;
-		color: $gold;
+		width: 600px;
+		color: #222;
 		h3 {
 				font-size: 2.5em;
 				text-transform: capitalize;
@@ -1601,6 +1611,9 @@ section {
 				p {
 						width: 100%;
 				}
+		}
+		@media only screen and(max-width: 600px) {
+			margin-top: 250px;
 		}
 }
 @media only screen and(max-width: 600px) {
@@ -2647,3 +2660,8 @@ $mobile: 767px;
 }
 
 
+.page-talent {
+	h1, h5 {
+		color: #222 !important;
+	}
+}
