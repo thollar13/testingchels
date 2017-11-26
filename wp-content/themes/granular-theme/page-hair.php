@@ -8,7 +8,7 @@ get_header(); ?>
 <?php if (have_posts()) : while(have_posts()) : the_post() ;
 $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 ?>
-<section class="hero quote" style="background-image: url('<?php echo $url; ?>');">
+<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea-Spa.jpg'); background-position: center;">
 	<div class="hero-opacity"></div>
 	<h1>Hair Care</h1>
 </section>

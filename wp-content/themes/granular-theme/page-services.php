@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
 <div id="about-pg">
-	<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea-Lobby.jpg');">
+	<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea Salon-27.jpg');">
 		<h1><?php the_title(); ?></h1>
 	</section>
 
-	<div class="vp5">
+	<div class="vp5 services-container">
 		<div class="container">
 			<div class="row">
 				
@@ -13,7 +13,7 @@
         	<div class="container">
         		<div class="row">
         			<div class="col-sm-5">
-        				<div class="featured__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Hair-Care.jpg');"></div>
+        				<div class="featured__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea-Spa.jpg');"></div>
         			</div>
         			<div class="col-sm-6 col-sm-offset-1">
         				<a href="/services/hair-care">
@@ -29,7 +29,7 @@
         	<div class="container">
         		<div class="row">
         			<div class="col-sm-5">
-        				<div class="featured__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/edited-9043.jpg');"></div>
+        				<div class="featured__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/ProSpaBackbar.jpg');"></div>
         			</div>
         			<div class="col-sm-6 col-sm-offset-1">
         				<a href="/services/spa-services">
@@ -45,7 +45,7 @@
         	<div class="container">
         		<div class="row">
         			<div class="col-sm-5">
-        				<div class="featured__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea-Spa.jpg');"></div>
+        				<div class="featured__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/vomor2.jpg');"></div>
         			</div>
         			<div class="col-sm-6 col-sm-offset-1">
         				<a href="/services/vomor">
@@ -61,7 +61,7 @@
         	<div class="container">
         		<div class="row">
         			<div class="col-sm-5">
-        				<div class="featured__image" style="background-size: cover; background-position: center; background-image: url('<?php return_imgix(get_field('image'), 400, 300, 100); ?>');"></div>
+        				<div class="featured__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/AguayoWedding.jpg');"></div>
         			</div>
         			<div class="col-sm-6 col-sm-offset-1">
         				<a href="/services/weddings">

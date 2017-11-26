@@ -2847,6 +2847,20 @@ nav { height: 75px; }
 	}	
 }
 
+.services-container {
+	@media only screen and (max-width: 776px) {
+		.featured__card {
+			width: 90%;
+			margin: 0 auto;
+			margin-bottom: 3em;
+			h2 {
+				font-size: 2em;
+		    text-align: center;
+		    margin-top: 1em;
+		  }
+		}
+	}
+}
 
 
 

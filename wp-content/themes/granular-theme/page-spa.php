@@ -5,21 +5,12 @@
 
 get_header(); ?>
 
-<div id="spa-care">
+<div id="about-pg">
 	<?php if (have_posts()) : while(have_posts()) : the_post() ;
 	$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	?>
-		<section class="hero" style="background-image: url('<?php echo $url; ?>');">
-			<!-- <div class="hero-opacity"></div> -->
-			<div class="abs-full">
-				<div class="display-table">
-					<div class="display-cell">
-						<div class="display-content">
-							<h1 class="spa-title">Spa Services</h1>
-						</div>
-					</div>
-				</div>
-			</div>
+		<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/ProSpaBackbar.jpg');">
+			<h1 class="color-black">Spa Services</h1>
 		</section>
 	<?php endwhile; endif; ?>
 

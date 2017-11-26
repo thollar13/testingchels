@@ -1,25 +1,24 @@
 <?php get_header(); ?>
 
+<div id="about-pg">
+	<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/AguayoWedding.jpg');">
+		<h1>Weddings</h1>
+	</section>
+</div>
 
 <div id="about-pg">
-	
-	<div class="image-rotater">
-		<div class="image-rotater__image active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/wedding-3.jpg');"></div>
-		<div class="image-rotater__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/wedding-2.jpg');"></div>
-	  <div class="image-rotater__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/wedding-1.jpg');"></div>
-	  <div class="image-rotater__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/wedding-4.jpg');"></div>
-	</div>
 
-	<section class="wedding-content center bg-black color-white px25">
+
+	<section class="wedding-content center bg-white color-white px25">
 		<img class="right-image" src="<?php echo get_template_directory_uri(); ?>/assets/img/paisley-bg.png" />
 		<img class="left-image" src="<?php echo get_template_directory_uri(); ?>/assets/img/paisley-bg.png" />
-		<div class="container">
+		<div class="container vp5">
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h1 class="color-green">“Once in awhile, right in the middle of an ordinary life, love gives us a fairy tale.”</h1>
+					<h1 class="color-black">“Once in awhile, right in the middle of an ordinary life, love gives us a fairy tale.”</h1>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row color-black">
 				<div class="col-sm-6 col-sm-offset-3">
 					<h3>At Chelsea Salon &amp; Spa we have everything you need in preparation for your big day!</h3>
 					<hr class="hr-green">

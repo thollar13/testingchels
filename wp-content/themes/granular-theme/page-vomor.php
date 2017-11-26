@@ -4,8 +4,11 @@
 */
 get_header(); ?>
 
-<section class="vomor-hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/vomor.jpg');">
-</section>
+<div id="about-pg">
+	<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/vomor2.jpg');">
+		<h1>Vomor Hair Extensions</h1>
+	</section>
+</div>
 
 <div class="vomor-section">
 	<div class="container">
