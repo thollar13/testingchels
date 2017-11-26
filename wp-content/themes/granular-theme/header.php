@@ -46,10 +46,10 @@
 						<div class="menu-item">
 								<a href="/services" class="our-services-menu-item">Services</a>
 								<div class="sub-menu">
-									<a href="/hair-care" title="Hair Care" class="sub-menu-item">Hair Care</a>
-									<a href="/spa-services" title="Spa Services" class="sub-menu-item">Spa Services</a>
-									<a href="/vomor-hair-extensions" class="sub-menu-item" title="Vomor Hair Extensions">Vomor</a>
-									<a href="/weddings" class="sub-menu-item">Weddings</a>
+									<a href="/services/hair-care" title="Hair Care" class="sub-menu-item">Hair Care</a>
+									<a href="/services/spa-services" title="Spa Services" class="sub-menu-item">Spa Services</a>
+									<a href="/services/vomor-hair-extensions" class="sub-menu-item" title="Vomor Hair Extensions">Vomor</a>
+									<a href="/services/weddings" class="sub-menu-item">Weddings</a>
 								</div>
 						</div>
 						<div class="menu-item">

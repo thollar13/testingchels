@@ -2321,14 +2321,35 @@ $mobile: 767px;
 }
 
 .gift-card--callout {
+	padding: 10em 0;
+	background: white; 
+	h1 {
+		font-style: italic; 
+		font-size: 3em;
+	}
+	hr {
+		border-top: 5px solid #b4cd95; 
+		margin-top: -102px;
+		margin-bottom: 50px;
+	}
 	@media(max-width: 767px) {
 		width: 90%;
 		margin: 0 auto;
-		h3 { font-size: 2em; }
+		padding: 5em 0;
+		text-align: left;
+		h1 { 
+			font-size: 3em; 
+			margin-bottom: 1em;
+		}
 		hr {
-			border-top: 3px solid #b4cd95;
-			margin-top: -30px;
-			margin-bottom: 25px;
+			margin-top: -59px;
+		}
+		.btn {
+			display: block;
+			margin: 0 auto;
+			margin-top: 2em;
+			background: $white;
+			color: $black;
 		}
 	}
 }
@@ -2368,7 +2389,7 @@ $mobile: 767px;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(0,0,0,0.8);
+	background: rgba(255,255,255,0.8);
 	align-items: center;
 	justify-content: center;
 	z-index: 1000000;
@@ -2390,6 +2411,16 @@ $mobile: 767px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+	}
+	&__opacity {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.5);
 	}
 	&__close {
 		position: absolute;
@@ -2403,6 +2434,9 @@ $mobile: 767px;
 		font-size: 1.5em;
 		border-radius: 50%;
 		padding-left: 2px;
+		z-index: 1000;
+    background: $black;
+    color: $gold;
 		&:hover { cursor: pointer; }
 	}
 	img {
@@ -2415,8 +2449,12 @@ $mobile: 767px;
 		width: 90%;
 		margin: 0 auto;
 		padding: 1em;
+		position: relative;
 	}
-	h3 { font-size: 3em;}
+	h3 { 
+		font-size: 3em;
+		padding: 0;
+	}
 	@media(max-width: $mobile) {
 		&__popup {
 			width: 85%;
@@ -2434,6 +2472,10 @@ $mobile: 767px;
   margin: 0 auto;
   display: block;
   margin-top: 2em;
+  &:hover {
+  	background: $white;
+  	color: $black;
+  }
 }
 
 .activate-campaign {
@@ -2862,5 +2904,32 @@ nav { height: 75px; }
 	}
 }
 
+.img-banner {
+	background-size: cover;
+	background-position: center bottom;
+	height: 600px;
+	@media only screen and (max-width: 776px) {
+		height: 250px;
+	}	
+}
 
-
+.about-banner {
+	padding: 5em 0;
+	h1 { font-size: 3em; }
+	hr {
+		margin-top: -36px;
+	}
+	.btn {
+		margin-top: 2em;
+	}
+	@media only screen and (max-width: 776px) {
+		font-size: auto;
+		padding: 0;
+		.btn {
+			margin: 0 auto;
+			margin-top: 2em;
+			display: block;
+		}
+		img { display: none; }
+	}
+}

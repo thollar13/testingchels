@@ -3,6 +3,7 @@
 <div id="about-pg">
 	<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea Salon-27.jpg');">
 		<h1><?php the_title(); ?></h1>
+		<div class="hero-opacity"></div>
 	</section>
 
 	<div class="vp5 services-container">
@@ -29,7 +30,7 @@
         	<div class="container">
         		<div class="row">
         			<div class="col-sm-5">
-        				<div class="featured__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/ProSpaBackbar.jpg');"></div>
+        				<div class="featured__image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea Salon-30.jpg');"></div>
         			</div>
         			<div class="col-sm-6 col-sm-offset-1">
         				<a href="/services/spa-services">

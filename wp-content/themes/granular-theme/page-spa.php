@@ -9,8 +9,9 @@ get_header(); ?>
 	<?php if (have_posts()) : while(have_posts()) : the_post() ;
 	$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	?>
-		<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/ProSpaBackbar.jpg');">
+		<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea Salon-30.jpg');">
 			<h1 class="color-black">Spa Services</h1>
+			<div class="hero-opacity"></div>
 		</section>
 	<?php endwhile; endif; ?>
 

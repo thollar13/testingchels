@@ -43,11 +43,11 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<div class="banner">
+	<div class="banner about-banner">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2>Tallahassee's Largest AVEDA Lifestyle Spa &amp; Salon</h2>
+					<h1>Tallahassee's Largest AVEDA Lifestyle Spa &amp; Salon</h1>
 					<hr />
 				</div>
 			</div>
@@ -59,7 +59,15 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/aveda.jpg" alt="">
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="/about" class="btn btn-black">About Us</a>
+				</div>
+			</div>
 		</div>	
+	</div>
+
+	<div class="img-banner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea Salon-1.jpg')">
 	</div>
 
 	<div class="featured bg-black color-white pt3 pb4" style="position: relative;">
@@ -89,15 +97,15 @@ get_header(); ?>
 		<a href="<?php echo the_permalink(); ?>spa-packages" class="view-all-packages">View All Packages</a>
 	</div>
 
-	<div class="flex vp5 center color-black gift-card--callout">
+	<div class="flex center color-black gift-card--callout">
 		<div class="flex__item">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2">
-						<h3 class="mb2" style="font-family: 'Playfair Display'; font-style: italic; background: white; display: inline-block; padding: 0 20px;">A Gift Certificate Is The Perfect Gift!</h3>
-						<hr style="border-top: 5px solid #b4cd95; margin-top: -70px; margin-bottom: 50px;">
+						<h1 class="mb2">A Gift Certificate Is The Perfect Gift!</h1>
+						<hr />
 						<p class="mb2">Purchasing a Chelsea Salon Gift Card or Spa Package is an easy and convenient way to indulge that special someone in your life.</p>
-						<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black mt2 m0-auto block bg-black color-white">Purchase Now</a>
+						<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black bg-black">Purchase Now</a>
 					</div>
 				</div>
 			</div>

@@ -3,6 +3,7 @@
 <div id="about-pg">
 	<section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/AguayoWedding.jpg');">
 		<h1>Weddings</h1>
+		<div class="hero-opacity"></div>
 	</section>
 </div>
 
