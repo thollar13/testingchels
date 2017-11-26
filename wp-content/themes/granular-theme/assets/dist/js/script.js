@@ -656,32 +656,32 @@
           } else {
             $(this).addClass('active-nav');
           }
-          $('.show-nav').toggle();
+          $('.main-menu').toggle();
+        });
+      }
+    },
+    campaignBuilder: {
+      test: function test() {
+        return true;
+      },
+      run: function run() {
+        var showCampaign = Cookies.get('campaign');
+
+        if (showCampaign != 'active') {
+          $('.campaign-builder').addClass('activate-campaign');
+        }
+
+        $('.campaign-success').click(function () {
+          Cookies.set('campaign', 'active');
+          $('.campaign-builder').fadeOut();
+        });
+        $('.campaign-builder__close').click(function () {
+          Cookies.set('campaign', 'active', { expires: 1 });
+          $('.campaign-builder').fadeOut();
         });
       }
     }
   };
-  // campaignBuilder : {
-  // 	test : function() {
-  // 		return true;
-  // 	},
-  // 	run : function() {
-  // 		var showCampaign = Cookies.get('campaign');
-
-  // 		if(showCampaign != 'active') {
-  // 			$('.campaign-builder').addClass('activate-campaign');
-  // 		}
-
-  // 		$('.campaign-success').click(function() {
-  // 			Cookies.set('campaign', 'active');
-  // 			$('.campaign-builder').fadeOut();
-  // 		});
-  // 		$('.campaign-builder__close').click(function() {
-  // 			Cookies.set('campaign', 'active', { expires: 1 });
-  // 			$('.campaign-builder').fadeOut();
-  // 		});
-  // 	}
-  // }
   for (var key in wb) {
     if (wb[key].test()) {
       wb[key].run();

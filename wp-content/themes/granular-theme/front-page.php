@@ -19,12 +19,12 @@ get_header(); ?>
 				?>
 
 				<div class="slide__item" style="background-image: url('<?php the_sub_field('background_image'); ?>'); background-position: center;">
-					<div class="overlay"></div>
+					<!-- <div class="overlay"></div> -->
 					<div class="home__fade">
-						<div class="row" style="font-size: <?php echo $fontSize; ?>;">
-							<div class="col-sm-12">
-								<h1><?php the_sub_field('headline'); ?></h1>
-								<p><?php the_sub_field('content'); ?></p>
+						<div class="" style="font-size: <?php echo $fontSize; ?>;">
+							<div class="">
+								<h1 class="color-white"><?php the_sub_field('headline'); ?></h1>
+								<p class="color-white"><?php the_sub_field('content'); ?></p>
 								<?php if(get_sub_field('include_link') == 'yes') { ?>
 									<a href="<?php the_sub_field('link_url'); ?>" class="btn btn-black"><?php the_sub_field('link_text'); ?></a>
 								<?php } ?>

@@ -10,15 +10,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 ?>
 <section class="hero quote" style="background-image: url('<?php echo $url; ?>');">
 	<div class="hero-opacity"></div>
-	<div class="abs-full">
-		<div class="display-table">
-			<div class="display-cell">
-				<div class="display-content">
-					<h1>Hair Care</h1>
-				</div>
-			</div>
-		</div>
-	</div>
+	<h1>Hair Care</h1>
 </section>
 <?php endwhile; endif; ?>
 

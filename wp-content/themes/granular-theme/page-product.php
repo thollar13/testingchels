@@ -4,13 +4,13 @@
 **/
 get_header(); ?>
 
+<div id="about-pg">
+        <section class="hero quote" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea Salon-25.jpg');">
+                <h1>Our Packages</h1>
+        </section>
+</div>
 <div class="product-wrap" style="padding: 100px 0px;">
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 style="text-align: center;">Our Packages</h1>
-			</div>
-		</div>
 		<div class="row">
 
 				<?php $products = new WP_Query(array('post_type' => 'product' ));

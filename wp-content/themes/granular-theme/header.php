@@ -19,31 +19,58 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 		<div id="content" class="site-content">
-			<header id="masthead" class="site-header" role="banner">
-				<nav id="site-navigation" class="main-navigation" role="navigation">
+			<header>
+				<nav>
 					<div class="logo">
 						<a href="/home">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-chelsea.png" />
-							<a class="phone" href="tel:850-878-8282">850-878-8282</a>
+							<!-- <a class="phone" href="tel:850-878-8282">850-878-8282</a> -->
 						</a>
 					</div>
-					<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Book Now" class="book-now-full">Book Now</a>
+
 					<div class="mobile-nav">
 						<span></span>
 						<span></span>
 						<span></span>
 					</div>
-					<ul class="show-nav">
-						<li><a href="/">Home</a><li><a href="/about" title="About">About</a></li>
-						<li><a href="/our-talent" title="Our Talent">Talent</a></li>
-						<li><a href="/hair-care" title="Hair Care">Hair</a></li>
-						<li><a href="/vomor-hair-extensions" title="Vomor Hair Extensions">Vomor</a></li>
-						<li><a href="/spa-services" title="Spa Services">Spa</a></li>
-						<li><a href="/spa-packages" title="Spa Packages">Packages</a></li>
-						<li><a href="/weddings" title="weddings">Weddings</a></li>
-						<li class="mobile"><a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Book Now">Book Now</a></li>
-						<li class="mobile"><a href="tel:850-878-8282">Call Now</a></li>
-					</ul>
+					<div class="main-menu">
+						<div class="menu-item">
+							<a href="/">Home</a>
+						</div>
+						<div class="menu-item">
+							<a href="/about" title="About">About Us</a>
+						</div>
+						<div class="menu-item">
+							<a href="/our-talent" title="Our Talent">Our Talent</a>
+						</div>
+						<div class="menu-item">
+								<a href="/services" class="our-services-menu-item">Services</a>
+								<div class="sub-menu">
+									<a href="/hair-care" title="Hair Care" class="sub-menu-item">Hair Care</a>
+									<a href="/spa-services" title="Spa Services" class="sub-menu-item">Spa Services</a>
+									<a href="/vomor-hair-extensions" class="sub-menu-item" title="Vomor Hair Extensions">Vomor</a>
+									<a href="/weddings" class="sub-menu-item">Weddings</a>
+								</div>
+						</div>
+						<div class="menu-item">
+							<a href="/spa-packages" title="Spa Packages">Packages</a>
+						</div>
+						<!-- <div class="menu-item">
+							<a href="/contact" title="Spa Packages">Contact Us</a>
+						</div> -->
+						<div class="menu-item book-now">
+							<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" title="Book Now" target="_blank">Book Now</a>
+						</div>
+
+
+
+						<div class="mobile">
+							<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Book Now">Book Now</a>
+						</div>
+						<div class="mobile">
+							<a href="tel:850-878-8282">Call Now</a>
+						</div>
+					</div>
 				</nav>					
 			</header>
 
