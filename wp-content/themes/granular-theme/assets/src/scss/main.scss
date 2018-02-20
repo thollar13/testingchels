@@ -2163,10 +2163,10 @@ $mobile: 767px;
 
 .simple-text {
 	display: block;
-  width: 100%;
-  padding: 4em 0 1em;
-  position: relative;
-  hr { top: 65px !important; }
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 1em;
 }
 .sectional {
 	padding: 5em 0;
@@ -2189,6 +2189,9 @@ $mobile: 767px;
 		padding-right: 1em;
 		margin-bottom: 1em;
 		padding-left: 20px;
+		@media(max-width: 767px) {
+			font-size: 3em;
+		}
 	}
 	hr {
 		position: absolute;
@@ -2197,6 +2200,9 @@ $mobile: 767px;
     width: 100%;
     top: 10px;
     border-top: none;
+    	@media(max-width: 767px) {
+    		display: none;
+    	}
 	}
 	&:nth-child(2n) {
 		background-color: $white;
