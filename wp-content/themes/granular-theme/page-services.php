@@ -20,7 +20,7 @@
         				<a href="/services/hair-care">
         					<h2 class="color-black bg-white">Hair Care &nbsp;<i class="fa fa-angle-right"></i></h2>
         				</a>
-        				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error, repudiandae accusantium voluptatibus harum ipsam deserunt! Est nesciunt error totam aperiam, cumque libero. Repellendus cum, quam maxime facilis sint vitae!</p>
+        				<p>Chelsea has over 20 Hair Stylists with various expertise to give you the look you're dreaming of!</p>
         			</div>
         		</div>
         	</div>
@@ -36,7 +36,7 @@
         				<a href="/services/spa-services">
         					<h2 class="color-black bg-white">Spa Services &nbsp;<i class="fa fa-angle-right"></i></h2>
         				</a>
-        				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error, repudiandae accusantium voluptatibus harum ipsam deserunt! Est nesciunt error totam aperiam, cumque libero. Repellendus cum, quam maxime facilis sint vitae!</p>
+        				<p>Facial Therapy, Specialty Manicures &amp; Pedicures, Massage Therapy, Body Waxing and more! </p>
         			</div>
         		</div>
         	</div>
@@ -52,7 +52,7 @@
         				<a href="/services/vomor">
         					<h2 class="color-black bg-white">Vomor Services &nbsp;<i class="fa fa-angle-right"></i></h2>
         				</a>
-        				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error, repudiandae accusantium voluptatibus harum ipsam deserunt! Est nesciunt error totam aperiam, cumque libero. Repellendus cum, quam maxime facilis sint vitae!</p>
+        				<p>With a single salon service, you can change your hair world! It is not just about long hair, but about full hair, hair with volume. Wake up with the hair you’ve always dreamed of.</p>
         			</div>
         		</div>
         	</div>
@@ -68,7 +68,7 @@
         				<a href="/services/weddings">
         					<h2 class="color-black bg-white">Weddings &nbsp;<i class="fa fa-angle-right"></i></h2>
         				</a>
-        				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error, repudiandae accusantium voluptatibus harum ipsam deserunt! Est nesciunt error totam aperiam, cumque libero. Repellendus cum, quam maxime facilis sint vitae!</p>
+        				<p>At Chelsea, we have everything you need for that pre­-wedding pampering. Whether it is Manicures and Pedicures, a full Spa Day or exquisite Hair and Make Up, we have you covered. </p>
         			</div>
         		</div>
         	</div>
