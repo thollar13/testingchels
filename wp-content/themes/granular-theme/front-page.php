@@ -38,8 +38,8 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="booking-portal color-white bg-black home__slide-up">
-			<p>go to our booking portal to book your appointment</p>
-			<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn m0-auto m1 inline-block bg-tan">Book Now</a>
+			<p>go to our booking portal to purchase your gift card</p>
+			<a href="http://www.secure-booker.com/chelsea/ShopOnline/GiftCertificate.aspx" target="_blank" class="btn m0-auto m1 inline-block bg-tan">Purchase Now</a>
 		</div>
 	</section>
 
