@@ -20,7 +20,7 @@ get_header(); ?>
         	<div class="container">
         		<div class="row">
         			<div class="col-sm-5">
-        				<div class="featured__image" style="background-size: cover; background-position: center; background-image: url('<?php get_field('image'); ?>');"></div>
+        				<div class="featured__image" style="background-size: cover; background-position: center; background-image: url('<?php echo get_field('image'); ?>');"></div>
         			</div>
         			<div class="col-sm-6 col-sm-offset-1">
         				<h3 class="color-tan bg-black" style="color: #c4daa7;"><?php the_title(); ?></h3>
