@@ -30,29 +30,21 @@ get_header(); ?>
 						</p>
 						<div class="container-fluid">
 							<div class="row body-waxing">
-								<div class="col-sm-12 col-md-6 col-lg-4">
+								<div class="col-sm-12 col-md-6">
 									<p>Eyebrow Wax <span>$15 and up</span></p>
 									<p>Lip Wax <span>$15 and up</span></p>
 									<p>Chin Wax <span>$12 and up</span></p>
 									<p>Half Leg Wax <span>$40 and up</span></p>
 									<p>Full Leg/Bikini Line Wax <span>$75 and up</span></p>
-									<p>Underarm Wax <span>$30 and up</span></p>
+									<p>Underarm Wax <span>$25 and up</span></p>
 								</div>
-								<div class="col-sm-12 col-md-6 col-lg-4">
+								<div class="col-sm-12 col-md-6">
 									<p>Full Arm Wax <span>$45 and up</span></p>
 									<p>Half Arm Wax <span>$30 and up</span></p>
 									<p>Back Wax <span>$50 and up</span></p>
 									<p>Chest Wax <span>$50 and up</span></p>
 									<p>Bikini Wax <span>$40 and up</span></p>
 									<p>Brazilian Wax <span>$60 and up</span></p>
-								</div>
-								<div class="col-sm-12 col-md-6 col-lg-4">
-									<p>Back Sugar Waxing <span>$60 and up</span></p>
-									<p>Brazilian Sugar Waxing <span>$75 and up</span></p>
-									<p>Underarm Sugar Waxing <span>$38 and up</span></p>
-									<p>Bikini Sugar Waxing <span>$50 and up</span></p>
-									<p>Chin Sugar Waxing <span>$17 and up</span></p>
-									<p>Lip Sugar Waxing <span>$18 and up</span></p>
 								</div>
 							</div>
 							<div class="row">
