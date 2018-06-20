@@ -3,7 +3,7 @@
 		</div>
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer" role="contentinfo" style="padding-bottom: 3em;">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 social">
@@ -59,11 +59,6 @@
 						Tallahassee, FL 32308<br/> 
 						<div class="license">License #MM3110</div>
 					</address>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<p style='text-align: center; margin-top: 25px; color: #444;'>Site created by <a href="http://granular.io" style="color: #444; display: inline;">Granular Web Development</a></p>
 				</div>
 			</div>
 		</div><!-- .container -->
