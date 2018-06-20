@@ -49,6 +49,7 @@
 									<a href="/services/hair-care" title="Hair Care" class="sub-menu-item">Hair Care</a>
 									<a href="/services/spa-services" title="Spa Services" class="sub-menu-item">Spa Services</a>
 									<a href="/services/vomor-hair-extensions" class="sub-menu-item" title="Vomor Hair Extensions">Vomor</a>
+									<a href="/services/microblading" class="sub-menu-item">Microblading</a>
 									<a href="/services/weddings" class="sub-menu-item">Weddings</a>
 								</div>
 						</div>
