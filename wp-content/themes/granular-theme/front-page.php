@@ -70,7 +70,7 @@ get_header(); ?>
 	<div class="img-banner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea Salon-1.jpg')">
 	</div>
 
-	<div class="featured bg-black color-white pt3 pb4" style="position: relative;">
+	<!-- <div class="featured bg-black color-white pt3 pb4" style="position: relative;">
 		<h2 class="color-tan">Featured Packages</h2>
 		<?php $posts = get_field('featured_packages');
 		if( $posts ): foreach( $posts as $post): ?>
@@ -95,7 +95,7 @@ get_header(); ?>
 	    <?php wp_reset_postdata(); ?>
 		<?php endif; ?>
 		<a href="<?php echo the_permalink(); ?>spa-packages" class="view-all-packages">View All Packages</a>
-	</div>
+	</div> -->
 
 	<div class="flex center color-black gift-card--callout">
 		<div class="flex__item">
