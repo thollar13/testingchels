@@ -34,16 +34,16 @@ get_header(); ?>
 						<tr>
 							<td>Initial Application Service to include Shampoo and Blow-dry</td>
 							<td>12"</td>
-							<td>$253</td>
-							<td>$473</td>
-							<td>$693</td>
+							<td>$263</td>
+							<td>$483</td>
+							<td>$703</td>
 						</tr>
 						<tr>
 							<td>Initial Application Service to include Shampoo and Blow-dry</td>
 							<td>16"</td>
-							<td>$285</td>
-							<td>$537</td>
-							<td>$789</td>
+							<td>$301</td>
+							<td>$559</td>
+							<td>$877</td>
 						</tr>
 						<tr>
 							<td>Maintenance Service<br/></td>
