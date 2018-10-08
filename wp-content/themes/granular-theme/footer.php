@@ -65,18 +65,17 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<!-- <div class="campaign-builder">
+<div class="campaign-builder">
 	<div class="campaign-builder__popup">
     <div class="campaign-builder__close">&times;</div>
-		<div class="campaign-builder__content" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Promo-Christmas.jpg');">
+		<div class="campaign-builder__content" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Michael.png');">
 			<div class="campaign-builder__opacity"></div>
-			<h3 class="center">Christmas Is Here!</h3>
-      <p>For every purchase of $100 or more in Chelsea Salon and Spa gift certificates, you'll receive a free stocking stuffer while supplies last. (Psst - don't forget that men love to be pampered, too!)</p>
-			<p>Offer valid through Dec. 25th</p>
-      <a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black bg-white campaign-success">Purchase Now!</a>
+			<h3 class="center">Hurricane Michael Update!</h3>
+      <p>Due to Hurricane Michael we have decided to close Wednesday, October 10th & Thursday, October 11th. We will be open Tuesday the 9th as well as Friday the 13th and Saturday the 14th pending the aftermath of the storm. We hope everyone stays safe and we look forward to seeing you at your next appointment.</p>
+      <!-- <a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black bg-white campaign-success">Purchase Now!</a> -->
 		</div>
 	</div>
-</div> -->
+</div>
 	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
