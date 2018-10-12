@@ -70,8 +70,8 @@
     <div class="campaign-builder__close">&times;</div>
 		<div class="campaign-builder__content" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Michael.png');">
 			<div class="campaign-builder__opacity"></div>
-			<h3 class="center">Hurricane Michael Update!</h3>
-      <p>Due to Hurricane Michael we have decided to close Wednesday, October 10th & Thursday, October 11th. We will be open Tuesday the 9th as well as Friday the 12th and Saturday the 13th pending the aftermath of the storm. We hope everyone stays safe and we look forward to seeing you at your next appointment.</p>
+			<h3 class="center">WE ARE OPEN!</h3>
+      <p>We are open today, Friday, October 12th, however, phones and internet are currently down.</p>
       <!-- <a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black bg-white campaign-success">Purchase Now!</a> -->
 		</div>
 	</div>
