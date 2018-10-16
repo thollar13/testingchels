@@ -67,7 +67,7 @@ get_header(); ?>
 		</div>	
 	</div>
 
-	<div class="img-banner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/Chelsea Salon-1.jpg')">
+	<div class="img-banner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/staff-full.JPG')">
 	</div>
 
 	<!-- <div class="featured bg-black color-white pt3 pb4" style="position: relative;">
