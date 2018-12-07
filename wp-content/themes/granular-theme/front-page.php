@@ -104,7 +104,7 @@ get_header(); ?>
 					<div class="col-sm-8 col-sm-offset-2">
 						<h1 class="mb2">A Gift Certificate Is The Perfect Gift!</h1>
 						<hr />
-						<p class="mb2">Purchasing a Chelsea Salon Gift Card or Spa Package is an easy and convenient way to indulge that special someone in your life.</p>
+						<p class="mb2">Purchasing a Chelsea Salon Gift Card or Spa Package is an easy and convenient way to indulge that special someone in your life.<br><small>**Chelsea will be open on Christmas Eve from 10:00am-2:00pm for last minute Gift Certificate sales!</small></p>
 						<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black bg-black">Purchase Now</a>
 					</div>
 				</div>
