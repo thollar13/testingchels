@@ -68,11 +68,11 @@
 <div class="campaign-builder">
 	<div class="campaign-builder__popup">
     <div class="campaign-builder__close">&times;</div>
-		<div class="campaign-builder__content" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/gift-card.jpg');">
-			<div class="campaign-builder__opacity"></div>
+		<div class="campaign-builder__content" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/christmas-cta.png');">
+			<!-- <div class="campaign-builder__opacity"></div>
 			<h3 class="center">Holiday Shopping!</h3>
       <p>Now through Christmas for every $100 or more purchased in Gift Certificates, receive a complimentary Stocking Stuffer packaged together in a Gift Box. Please feel free to call the salon and order via phone for pick up or swing by the salon!</p>
-      <a href="http://www.secure-booker.com/chelsea/ShopOnline/GiftCertificate.aspx" target="_blank" class="btn btn-black bg-white campaign-success">Purchase Now!</a>
+      <a href="http://www.secure-booker.com/chelsea/ShopOnline/GiftCertificate.aspx" target="_blank" class="btn btn-black bg-white campaign-success">Purchase Now!</a> -->
 		</div>
 	</div>
 </div>
