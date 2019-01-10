@@ -28,7 +28,7 @@ get_header(); ?>
 								<?php if(get_sub_field('include_link') == 'yes') { ?>
 									<a href="<?php the_sub_field('link_url'); ?>" class="btn btn-black"><?php the_sub_field('link_text'); ?></a>
 								<?php } ?>
-								<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn mobile">Book Now</a>
+								<a href="https://go.booker.com/location/chelsea/service-menu" target="_blank" class="btn mobile">Book Now</a>
 							</div>
 						</div>
 					</div>	
@@ -39,7 +39,7 @@ get_header(); ?>
 		</div>
 		<div class="booking-portal color-white bg-black home__slide-up">
 			<p>go to our booking portal to purchase your gift card</p>
-			<a href="http://www.secure-booker.com/chelsea/ShopOnline/GiftCertificate.aspx" target="_blank" class="btn m0-auto m1 inline-block bg-tan">Purchase Now</a>
+			<a href="https://go.booker.com/location/chelsea/buy/gift-certificate" target="_blank" class="btn m0-auto m1 inline-block bg-tan">Purchase Now</a>
 		</div>
 	</section>
 
@@ -86,7 +86,7 @@ get_header(); ?>
         				<h3 class="color-tan bg-black" style="color: #c4daa7;"><?php the_title(); ?></h3>
         				<hr style="border-top: 5px solid #444; margin-top: -40px; margin-bottom: 30px; ">
         				<p><?php the_field('description'); ?></p>
-        				<a class="btn btn-lightblack" href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Spa Packages">Purchase Now</a>
+        				<a class="btn btn-lightblack" href="https://go.booker.com/location/chelsea/service-menu" target="_blank" title="Spa Packages">Purchase Now</a>
         			</div>
         		</div>
         	</div>
@@ -105,7 +105,7 @@ get_header(); ?>
 						<h1 class="mb2">A Gift Certificate Is The Perfect Gift!</h1>
 						<hr />
 						<p class="mb2">Purchasing a Chelsea Salon Gift Card or Spa Package is an easy and convenient way to indulge that special someone in your life.<br><small>**Chelsea will be open on Christmas Eve from 10:00am-2:00pm for last minute Gift Certificate sales!</small></p>
-						<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black bg-black">Purchase Now</a>
+						<a href="https://go.booker.com/location/chelsea/service-menu" target="_blank" class="btn btn-black bg-black">Purchase Now</a>
 					</div>
 				</div>
 			</div>

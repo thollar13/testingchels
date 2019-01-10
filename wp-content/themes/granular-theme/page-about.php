@@ -107,7 +107,7 @@ get_header(); ?>
 						<h3 class="mb2" style="font-family: 'Playfair Display'; font-style: italic; background: white; display: inline-block; padding: 0 20px;">A Gift Certificate Is The Perfect Gift!</h3>
 						<hr style="border-top: 5px solid #b4cd95; margin-top: -70px; margin-bottom: 50px;">
 						<p class="mb2">Purchasing a Chelsea Salon Gift Card or Spa Package is an easy and convenient way to indulge that special someone in your life.</p>
-						<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" class="btn btn-black mt2 m0-auto block bg-black color-white">Purchase Now</a>
+						<a href="https://go.booker.com/location/chelsea/service-menu" target="_blank" class="btn btn-black mt2 m0-auto block bg-black color-white">Purchase Now</a>
 					</div>
 				</div>
 			</div>

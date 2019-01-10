@@ -2788,17 +2788,24 @@ $mobile: 767px;
 
 
 header {
-	background: $black;
+	background: $white;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	z-index: 100000000;
-	img { 
-		margin: 1em;
-		width: 130px; 
+	.logo {
+		display: inline-flex;
+    background: $black;
+    width: 175px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+		img { 
+			width: 130px; 
+		}
 	}
 	a {
-		color: $gold;
+		color: $black;
 		&:hover { color: $gold; }
 	}
 	.menu-item {
@@ -2819,8 +2826,12 @@ nav { height: 75px; }
 	position: fixed;
 	right: 20px;
 	top: 20px;
-	font-family: 'GentiumItalic';
-	a { font-size: 1.5em; }
+	font-family: 'Roboto', sans-serif;
+	a { 
+		font-size: 16px; 
+		text-transform: uppercase;
+		font-weight: 500;
+	}
 	.menu-item {
 		position: relative;
 		padding: 0 1em;
@@ -2839,8 +2850,8 @@ nav { height: 75px; }
 		}
 	}
 	.book-now {
-		background: $gold;
-		a { color: $black; }
+		background: $black;
+		a { color: $lightgold; }
 	}
 }
 

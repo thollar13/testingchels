@@ -31,7 +31,7 @@ get_header(); ?>
         					<?php } ?>
         					<?php the_field('description'); ?>
         					</p>
-        				<a class="btn btn-lightblack" href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Spa Packages">Purchase Now</a>
+        				<a class="btn btn-lightblack" href="https://go.booker.com/location/chelsea/service-menu" target="_blank" title="Spa Packages">Purchase Now</a>
         			</div>
         		</div>
         	</div>

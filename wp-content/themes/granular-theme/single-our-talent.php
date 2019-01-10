@@ -10,7 +10,7 @@
 			<div class="col-sm-6">
 				<h2 class="our-talent__single-name"><?php the_title(); ?></h2>
 				<p class="our-talen__single-content mt2"><?php the_field('about'); ?></p>
-				<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" class="btn btn-black mt2" target="_blank">Book Appointment</a>
+				<a href="https://go.booker.com/location/chelsea/service-menu" class="btn btn-black mt2" target="_blank">Book Appointment</a>
 			</div>
 		</div>
 	</div>

@@ -8,10 +8,10 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/chelsea-bg.jpg" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+
 <?php wp_head(); ?>
 </head>
 
@@ -21,12 +21,9 @@
 		<div id="content" class="site-content">
 			<header>
 				<nav>
-					<div class="logo">
-						<a href="/home">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-chelsea.png" />
-							<!-- <a class="phone" href="tel:850-878-8282">850-878-8282</a> -->
-						</a>
-					</div>
+					<a href="/home" class="logo">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-chelsea.png" />
+					</a>
 
 					<div class="mobile-nav">
 						<span></span>
@@ -56,17 +53,14 @@
 						<div class="menu-item">
 							<a href="/spa-packages" title="Spa Packages">Packages</a>
 						</div>
-						<!-- <div class="menu-item">
-							<a href="/contact" title="Spa Packages">Contact Us</a>
-						</div> -->
 						<div class="menu-item book-now">
-							<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" title="Book Now" target="_blank">Book Now</a>
+							<a href="https://go.booker.com/location/chelsea/service-menu" title="Book Now" target="_blank">Book Now</a>
 						</div>
 
 
 
 						<div class="mobile">
-							<a href="http://www.secure-booker.com/chelsea/MakeAppointment/Search.aspx" target="_blank" title="Book Now">Book Now</a>
+							<a href="https://go.booker.com/location/chelsea/service-menu" target="_blank" title="Book Now">Book Now</a>
 						</div>
 						<div class="mobile">
 							<a href="tel:850-878-8282">Call Now</a>

@@ -75,7 +75,7 @@
 			<div class="campaign-builder__opacity"></div>
 			<h3 class="center">Holiday Shopping!</h3>
       <p>Now through Christmas for every $100 or more purchased in Gift Certificates, receive a complimentary Stocking Stuffer packaged together in a Gift Box. Please feel free to call the salon and order via phone for pick up or swing by the salon!</p>
-      <a href="http://www.secure-booker.com/chelsea/ShopOnline/GiftCertificate.aspx" target="_blank" class="btn btn-black bg-white campaign-success">Purchase Now!</a>
+      <a href="https://go.booker.com/location/chelsea/buy/gift-certificate" target="_blank" class="btn btn-black bg-white campaign-success">Purchase Now!</a>
 		</div>
 	</div>
 </div> -->
