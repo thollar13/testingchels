@@ -2913,6 +2913,13 @@ nav { height: 75px; }
 	}
 }
 
+.btn.mobile { 
+	display: none; 
+	@media only screen and (max-width: 776px) {
+		display: block;
+	}
+}
+
 .img-banner {
 	background-size: cover;
 	background-position: center bottom;
