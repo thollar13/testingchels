@@ -53,6 +53,9 @@
 						<div class="menu-item">
 							<a href="/spa-packages" title="Spa Packages">Packages</a>
 						</div>
+						<div class="menu-item">
+							<a href="https://www.aveda.com/salon/chelseasalon" target="_blank">Shop Aveda</a>
+						</div>
 						<div class="menu-item book-now">
 							<a href="https://go.booker.com/location/chelsea/service-menu" title="Book Now" target="_blank">Book Now</a>
 						</div>

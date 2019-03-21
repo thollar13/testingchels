@@ -21,7 +21,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="service-wrap" style="width: 100%;">
-					  <h3>Refresher<br><small>$75</small></h3>
+					  <h3>Refresher<br><small>$247</small></h3>
 					  <p>For clients with existing microbladed brows who desire a touch-up or correction <br/><br/> *requires deposit of $75</p>
 					</div>
 				</div>

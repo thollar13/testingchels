@@ -71,7 +71,7 @@ function hair_care_register() {
     'query_var'          => true,
     'rewrite'            => array( 'slug' => 'hair-care' ),
     'capability_type'    => 'post',
-    'has_archive'        => false,
+    'has_archive'        => true,
     'hierarchical'       => false,
     'menu_position'      => null,
     'supports'           => array( 'title', 'thumbnail' )

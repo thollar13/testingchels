@@ -2168,7 +2168,7 @@ $mobile: 767px;
     position: relative;
     padding-left: 20px;
     padding-bottom: 1em;
-    font-size: 2em;
+    // font-size: 2em;
     margin-top: 2em;
 }
 .sectional {
@@ -2845,7 +2845,7 @@ nav { height: 75px; }
 	}
 }
 
-@media(max-width: 767px) {
+@media(max-width: 960px) {
 	.main-menu {
 		top: 75px;
 	  background: #222;
@@ -2900,7 +2900,7 @@ nav { height: 75px; }
 }
 
 .services-container {
-	@media only screen and (max-width: 776px) {
+	@media only screen and (max-width: 960px) {
 		.featured__card {
 			width: 90%;
 			margin: 0 auto;
@@ -2916,7 +2916,7 @@ nav { height: 75px; }
 
 .btn.mobile { 
 	display: none; 
-	@media only screen and (max-width: 776px) {
+	@media only screen and (max-width: 960px) {
 		display: block;
 	}
 }
@@ -2925,7 +2925,7 @@ nav { height: 75px; }
 	background-size: cover;
 	background-position: center bottom;
 	height: 600px;
-	@media only screen and (max-width: 776px) {
+	@media only screen and (max-width: 960px) {
 		height: 250px;
 	}	
 }
@@ -2939,7 +2939,7 @@ nav { height: 75px; }
 	.btn {
 		margin-top: 2em;
 	}
-	@media only screen and (max-width: 776px) {
+	@media only screen and (max-width: 960px) {
 		font-size: auto;
 		padding: 0;
 		.btn {

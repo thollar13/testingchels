@@ -29,7 +29,7 @@ get_header(); ?>
 		</div>	
 	</div>
 
-	<div class="instruction-section">
+	<!-- <div class="instruction-section">
 		<div class="specialized-instruction vp-xs-bottom-4">
 			<?php $count = 0; if(have_rows('featured_point')) : while(have_rows('featured_point')) : the_row('featured_point'); ?>
 				<div class="instruction">
@@ -41,7 +41,7 @@ get_header(); ?>
 				
 			<?php $count++; endwhile; endif; ?> 
 		</div>
-	</div>
+	</div> -->
 
 
 		<div class="staff-img__wrap">
